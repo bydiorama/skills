@@ -6,7 +6,7 @@ This reference governs **how the document itself sounds**, not the brand it docu
 
 ## Three writing modes
 
-Drawn from corpus analysis of all 180 documents.
+Drawn from analysis of all ~180 documents reviewed.
 
 | Mode | Count | % | Avg. quality |
 |------|------:|------:|-------:|
@@ -16,7 +16,7 @@ Drawn from corpus analysis of all 180 documents.
 
 **Hybrid wins.** It opens sections with narrative context explaining purpose, then transitions to precise specifications. Both "why" and "how" are answered.
 
-Pure instructional works for partner / compliance / engineering-grade documents (NASA, Bell System, Network Rail). Pure inspirational works only for principles-led books with thin specifications, and consistently scores lowest.
+Pure instructional works for partner / compliance / engineering-grade documents — the register of a classic corporate identity standard or a rail-infrastructure manual. Pure inspirational works only for principles-led books with thin specifications, and consistently scores lowest.
 
 **Default to hybrid unless the brief specifies otherwise.**
 
@@ -39,10 +39,10 @@ If voice = brand voice, every paragraph should pass this test: "Could this sente
 
 Concrete moves:
 
-1. **Use the brand's own opening greeting.** Spotify's "Hej hej." Pleo's "Pleo rhymes with Rio." IKEA's "Yay, it's Monday!" Set the tone in the first line of the foreword.
+1. **Use the brand's own opening greeting.** A greeting in the founders' language; a pronunciation joke about the brand name; a cheerful "Yay, it's Monday!" Set the tone in the first line of the foreword.
 2. **First-person plural ("we", "our"), not third-person ("the brand", "[BrandName]").** "We don't use Helvetica" reads as a brand decision; "[BrandName] does not use Helvetica" reads as a contractor's note.
 3. **Match sentence length to brand cadence.** Punchy brand → short sentences. Premium / luxury → measured cadence with longer phrases. Technical → precise but not robotic.
-4. **Embed brand vocabulary.** If Strava says "athletes, never users," the doc itself uses "athletes" when referring to the people the brand serves.
+4. **Embed brand vocabulary.** If the brand says "athletes, never users," the doc itself uses "athletes" when referring to the people the brand serves.
 5. **Use brand-style headings.** If the brand uses sentence-case for everything, headings are sentence-case here too.
 6. **Demonstrate the voice in examples.** A TOV section that says "we use direct, irreverent headlines" should be written in direct, irreverent prose.
 
@@ -68,18 +68,18 @@ The strictness of language should scale with the risk of the element:
 | Typography hierarchy, application templates | Use / Avoid / Standard is / Default to |
 | Photography style, voice | Prefer / Lean toward / In most cases / Generally |
 
-Bell System (1970): "Under no circumstances is the bell symbol to be redrawn."
+A 1970 corporate identity standard: "Under no circumstances is the symbol to be redrawn."
 Origameo: "Contractions preferred."
-SPACE10: "Principles rather than hard rules."
+A modern design lab: "Principles rather than hard rules."
 
 Match the strictness to the stakes.
 
 ### "Things to Avoid" reframe
 
-Several modern documents (TikTok, Bumble, WeWork) replace "Don't" with softer alternatives:
+Several modern documents replace "Don't" with softer alternatives:
 
-- "Things to Avoid" (TikTok)
-- "Avoidances" (Bumble: "No bee imagery/puns; no 'shoot/shot' language")
+- "Things to Avoid"
+- "Avoidances" (e.g. "No mascot puns; no 'shoot/shot' language")
 - "Sensitivity guidance" — framed as cultural awareness rather than prohibition
 
 This preserves the practical value of negative examples while sounding less authoritarian. Use this for brands whose voice is collaborative or educational.
@@ -126,7 +126,7 @@ Adapt these to brand cadence — they're scaffolding, not template.
 
 ## File / publishing
 
-- **Target file size**: under 50 MB. Documents at 200–300 MB are corpus anti-pattern (Eterno Cloud D028 at 315 MB for 31 pages).
+- **Target file size**: under 50 MB. Documents at 200–300 MB are an anti-pattern — a 30-page deck has no business weighing 300 MB, and nobody opens it twice.
 - **PDF**: optimized for screen (downsampled images at 150 DPI for screen, 300 DPI for print)
 - **Versioning**: every shipped document includes a version number on cover and footer
 - **Cover**: brand name, document type ("Brand Guidelines"), version, publication date
@@ -139,15 +139,3 @@ Adapt these to brand cadence — they're scaffolding, not template.
 - **Inconsistent voice across sections.** If chapters were written by different people, audit and unify.
 - **Boilerplate from a previous brand's guidelines.** Recognize copy that didn't get tailored.
 - **Excessive screenshots of the doc itself.** A guidelines document doesn't need to show off — show the brand, not the document's design.
-
-## Reference examples from the corpus
-
-- **E092 IKEA TOV** — The doc itself sounds like IKEA: "Yay, it's Monday!"
-- **E100 Spotify** — "Hej hej" greeting; friendly Scandinavian tone
-- **E090 Strava** (5/5) — "The writing itself exemplifies the brand voice."
-- **E053 Klarna** — Confident, slightly cheeky throughout
-- **E101 Pleo** — Conversational; brand-centric ("Pleo rhymes with Rio")
-- **E085 Ogilvy Typography** (5/5) — Educational / historical register; teaches as it instructs
-- **E077 Christopher Doyle** — Satirical: brand-as-human conceit subverts the genre
-- **E149 The Shed** — Art-discourse register, befitting the brand
-- **E034 NASA** (1976) — Pure technical-instructional perfection of its era

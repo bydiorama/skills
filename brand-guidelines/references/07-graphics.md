@@ -1,6 +1,6 @@
 # Section 5 — Graphics
 
-Position 5 (76% consensus). Present in 90% of the corpus. Encompasses iconography, patterns, illustrations, graphic devices, and named brand elements.
+Position 5 (76% consensus). Present in 90% of documents reviewed. Encompasses iconography, patterns, illustrations, graphic devices, and named brand elements.
 
 The single strongest indicator of a 5/5 quality score is the presence of a **generative graphic system** — a visual system that generates variety from fixed rules. This is where exceptional brands separate from competent ones.
 
@@ -19,22 +19,21 @@ The single strongest indicator of a 5/5 quality score is the presence of a **gen
 
 ## The four graphic strategies
 
-The corpus reveals four distinct approaches. Pick one (or one primary + one supporting):
+The research reveals four distinct approaches. Pick one (or one primary + one supporting):
 
 ### 1. Named device (most common for top-scoring docs)
 
 A single proprietary visual element with a name and rule set.
 
-| Brand | Device name | What it is |
-|-------|------------|------------|
-| **E015 RAC** | The Chevron | A V-shape with 8 sub-sections of usage rules |
-| **E091 Hulu** | The Vessel | A container shape that holds content |
-| **E090 Strava** | Dorados | Custom angular graphic element |
-| **E063 IBM Garage** | Scaffolding | Modular construction grid |
-| **E074 Docusign** | Shape of Agreements | Geometric motif tied to brand meaning |
-| **E012 Motorola** | Emsignia | Naming the brandmark itself |
-| **E122 Hometree** | The Wave | Step-by-step Illustrator construction instructions |
-| **E064 Wave** | The Wave | (different brand, same principle) |
+| Sector | Device type | What it is |
+|--------|------------|------------|
+| Roadside assistance | Directional chevron | A V-shape with a full sub-section of usage rules |
+| Streaming platform | Container shape | A vessel form that holds content |
+| Fitness platform | Angular accent | Custom angular graphic element |
+| Enterprise consulting | Modular grid | Construction scaffolding as a layout device |
+| E-signature SaaS | Meaning-bearing motif | Geometric form tied to the brand's core concept |
+| Telecom hardware | Named brandmark | The mark itself is given a proper name |
+| Home energy | Wave form | Shipped with step-by-step vector construction instructions |
 
 **The rule**: name your device. Naming elevates a graphic from decoration to brand asset and makes it referable in conversation.
 
@@ -42,15 +41,15 @@ A single proprietary visual element with a name and rule set.
 
 Rules that produce infinite variants. Strongest predictor of 5/5 score.
 
-| Brand | System | How it works |
-|-------|--------|--------------|
-| **E059 Whitney** | Responsive W | Single construction principle, infinite zig-zag configurations |
-| **D021 Kolinska Distrikt** | 10-shape label library | 10 shapes × 3 modes = 30 graphic options |
-| **E118 KALW** | Stencil-letter patterns | Each letter generates a unique pattern |
-| **E024 Oktawave** | Binary encoding | Brand name converted to visual pattern |
-| **D034 Queens** | Q-as-generative-device | Descender as independent motif |
-| **D003 FONA** | Parametric curves | Golden-ratio mathematical curve generation |
-| **E149 The Shed** | Lawrence Weiner artwork | Conceptual art as identity framework |
+| Sector | System | How it works |
+|--------|--------|--------------|
+| Art museum | Responsive initial | Single construction principle, infinite configurations |
+| Residential development | Shape library | 10 shapes × 3 modes = 30 graphic options |
+| Public radio | Stencil-letter patterns | Each letter generates a unique pattern |
+| Cloud hosting | Binary encoding | Brand name converted into a visual pattern |
+| Lifestyle retail | Letterform fragment | A single descender used as an independent motif |
+| Medical equipment | Parametric curves | Golden-ratio mathematical curve generation |
+| Arts centre | Commissioned artwork | A conceptual artwork licensed as the identity framework |
 
 To document a generative system, specify:
 - The seed elements (the building blocks)
@@ -63,10 +62,10 @@ To document a generative system, specify:
 
 A repeating visual language used as background, frame, or fill.
 
-- **D002 SHARK** — mosaic subdivision pattern
-- **E075 AB InBev** — "Material" section for physical textures
-- **E027 Cisco** — Texture system with still / motion variants and 3 application modes
-- **E159 NMAAHC** (4.5/5) — Corona pattern derived from the building's architecture
+- Fitness retail — mosaic subdivision pattern
+- Global beverage group — a "Material" section covering physical textures
+- Enterprise networking — texture system with still / motion variants and three application modes
+- National museum — pattern derived from the building's own architecture
 
 Document: tile size, repeat type (seamless / radial / stochastic), color treatment, scale at different sizes, do not flatten / pixelate / recolor.
 
@@ -74,9 +73,9 @@ Document: tile size, repeat type (seamless / radial / stochastic), color treatme
 
 When the brand uses illustration rather than photography.
 
-- **D027 Byteminds** (5/5) — entire brand built from two primitives (square + circle); 3D rendering replaces photography
-- **D033 NOVEBA** (4.5/5) — hand-drawn illustrations as the primary differentiator
-- **E153 Nike Circularity** — sustainable design workbook illustration style
+- B2B technology — entire brand built from two primitives (square + circle); 3D rendering replaces photography
+- Real estate brokerage — hand-drawn illustration as the primary differentiator against a category of generic photography
+- Sportswear sustainability programme — workbook-style illustration supporting a methodology, not a product
 
 Document: stylistic principles (line weight, perspective, palette restriction), sample library, do/don't, who can produce new illustrations and how.
 
@@ -93,16 +92,16 @@ Even brands without a "graphic system" usually have icons. Document:
 - **File format** — SVG masters, PNG exports per size
 - **License** — bespoke / Phosphor / Heroicons / Lucide / Material — specify
 
-**Reference: D017 Vratna** (5/5) — 40 custom pictograms tightly tied to the resort's offering.
+A strong benchmark: a mountain resort shipping 40 custom pictograms tied tightly to its actual offering, rather than a generic stock set.
 
 ## Construction rules
 
 For proprietary devices, document the construction. Examples:
 
-- **D003 FONA** — golden-ratio parametric curves
-- **D021 Kolinska Distrikt** — gable icon as brand-family seed; arch-type claim device
-- **E024 Oktawave** — golden-ratio everything
-- **E069 Kia** — 31° rising diagonal strokes; percentage-based motif placement
+- Golden-ratio parametric curves, with the generating formula published
+- A gable icon used as the seed for an entire brand family, plus an arch-shaped claim device
+- A fixed construction angle (e.g. 31° rising diagonals) applied across every motif
+- Percentage-based motif placement, so the device scales with the canvas rather than the page size
 
 A construction page typically includes: the grid, the geometry, the angles, the proportions, the optical adjustments, and the file specifications.
 
@@ -130,15 +129,3 @@ Don't fake a system. A clear absence is better than weak ornamentation.
 - **Pattern as afterthought** — no construction rule, just a wallpaper
 - **Icon library mixed in style** — half line, half filled, inconsistent grid
 - **Device with no rule** — appears once on the cover and never again
-
-## Reference examples from the corpus
-
-- **E059 Whitney Museum** (5/5) — Responsive W; 214 pages including Jan–May 2012 design exploration log
-- **E015 RAC** (5/5) — The Chevron with 8 sub-sections
-- **D021 Kolinska Distrikt** (5/5) — Generative 10-shape label library
-- **D027 Byteminds** (5/5) — Square + circle as the only primitives
-- **D003 FONA Dental** — Parametric curves
-- **D002 SHARK** — Mosaic subdivision
-- **E118 KALW** — Stencil-letter pattern generator
-- **E149 The Shed** — Lawrence Weiner artwork as identity framework
-- **E122 Hometree** — The Wave with construction steps
