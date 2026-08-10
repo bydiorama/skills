@@ -190,3 +190,9 @@ Every value extracted, not guessed · buttons and cards match the source · logo
 correct on both backgrounds · font weights confirmed and documented · inline SVGs recolour
 correctly · copy-to-clipboard works · responsive with no overflow · no leftover `[brackets]`
 or placeholder copy · verified in a real browser.
+
+## Related skills
+
+- `brand-guidelines` — the canonical section order and content rules this skill builds on
+- `brand-strategy` — the strategy the About / Principles section should express
+- `anti-skill` — review the built page before handover

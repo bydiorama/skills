@@ -196,3 +196,9 @@ Read `references/agent-prompts.md` for the template and role definitions.
 - **Verified Claim:** Revenue figures and YoY growth are internal metrics — not externally verifiable but internally consistent.
 - **Strength:** Clean, concise, leads with the most important number.
 - **Suggested fix:** Update the SaaS CAGR figure, add plan-vs-actual comparison, a specific forward target, and one honest challenge.
+
+## Related skills
+
+Point this at the output of any other skill in this collection — a brand strategy, an ICP,
+a case study, a guidelines document — or at anything produced elsewhere. It is
+source-agnostic by design.

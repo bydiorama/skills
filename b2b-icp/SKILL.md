@@ -233,3 +233,9 @@ How each team uses this ICP:
 - Produce a "big list of attributes" without prioritisation — every layer must end with what matters most
 - Copy a competitor's apparent ICP without checking whether our capabilities match
 - Mix confidence tiers in the same sentence
+
+## Related skills
+
+- `b2b-sos-analysis` — validate the ICP's Category Entry Points against real search demand
+- `brand-strategy` — the positioning and messaging that should sit on top of this ICP
+- `anti-skill` — stress-test the ICP before it drives spend

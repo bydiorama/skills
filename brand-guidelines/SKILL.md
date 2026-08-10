@@ -99,3 +99,9 @@ If the user wants a Figma-ready or InDesign-ready output, produce the Markdown c
 - **User wants only one section** → Load that section's reference and produce just that section, but flag the broader gaps
 - **User says "make it look like [Brand X]"** → Do not reproduce Brand X's system. Ask what they admire about it — rigor? minimalism? authority? warmth? — and apply that quality to their own brand
 - **User asks for a tier different from the default** → Confirm and load the matching template
+
+## Related skills
+
+- `brand-strategy` — produce the strategic foundation Phase 1 depends on
+- `brand-guidelines-site` — render the system as a web page instead of a document
+- `anti-skill` — run the finished document through an adversarial review

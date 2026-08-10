@@ -8,9 +8,10 @@ description: >
   Also trigger when the user mentions "SoS analysis", "share of search", "CEP mapping",
   "demand structure analysis", "category entry points", "mental availability audit",
   or uploads SoS datasets (trend data, query clusters, brand/non-brand queries)
-  and asks for strategic interpretation. This skill covers US market analysis
-  (other regions follow separately). Do NOT use for SEO audits, PPC plans,
-  or performance marketing reports — this is a strategy skill, not a channel skill.
+  and asks for strategic interpretation. Market-agnostic — run it per market, since
+  demand structure and category language differ by geography. Do NOT use for SEO audits,
+  PPC plans, or performance marketing reports — this is a strategy skill, not a channel
+  skill.
 ---
 
 # B2B Share of Search — Strategic Analysis Skill
@@ -112,7 +113,7 @@ Execute all 17 steps in order. Do not skip any step. Read the reference files fo
 | 9 | Decision criteria & RTBs | What evidence of credibility do buyers look for? |
 | 10 | Brand mental association map | What is each brand linked to in search? |
 | 11 | Segment-specific CEP relevance | Are some CEPs tied to specific verticals or use cases? |
-| 12 | US regional granularity | Do demand patterns differ within the US? |
+| 12 | Regional granularity | Do demand patterns differ within the market being analysed? |
 | 13 | Barriers & friction | What fears, objections, and friction appear? |
 | 14 | Default choice & category standard | Who is the implicit benchmark and what follows from that? |
 | 15 | NO-GO zones | Where should the brand deliberately not go? |
@@ -178,3 +179,9 @@ Organise into at minimum:
 - Ignore substitutes, default choice, or availability reality
 - Recommend tactical SEO/PPC tasks as the main output
 - Use absolute statements where you only have a weak signal
+
+## Related skills
+
+- `b2b-icp` — turn the demand structure into a named ICP and buyer persona
+- `brand-strategy` — feed validated CEPs into positioning and messaging
+- `anti-skill` — stress-test the interpretation before it reaches leadership

@@ -77,9 +77,9 @@ Identify whether some CEP patterns are tied to specific market types, industries
 
 ---
 
-## STEP 12 — US regional granularity (if data permits)
+## STEP 12 — Regional granularity (if data permits)
 
-When regional differences within the US are available, analyse:
+When sub-market regional breakdowns are available, analyse:
 - Leaders per region
 - CEP clusters per region
 - Barriers per region
@@ -87,11 +87,11 @@ When regional differences within the US are available, analyse:
 - Brand associations per region
 
 **Questions to answer:**
-- Do only brands differ within the US, or does the demand logic itself differ?
+- Do only the brands differ by region, or does the demand logic itself differ?
 - Are some CEPs regionally stronger?
-- Does the language, barriers, or default choice change by region?
+- Does the language, the barriers, or the default choice change by region?
 
-**Output:** "US regional demand logic note."
+**Output:** "Regional demand logic note."
 
 **If data does not support regional analysis**, state this explicitly and move on. Do not speculate.
 

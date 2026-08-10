@@ -1,0 +1,87 @@
+# Brand & Strategy Skills for Claude
+
+A small, opinionated set of [Agent Skills](https://code.claude.com/docs/en/skills) for the
+work a brand studio actually does: strategy, positioning, guidelines, and the critical
+review that should happen before any of it ships.
+
+These were built and used on real engagements, then rewritten to be brand-agnostic so
+anyone can run them. Seven skills, no dependencies beyond Python's standard library.
+
+## The skills
+
+| Skill | What it does | Reach for it when |
+|---|---|---|
+| **[anti-skill](anti-skill/)** | Source-agnostic validation engine. Runs adversarial review modes over any deliverable and returns findings with concrete fixes. | Anything is about to go to a client, a board, or production |
+| **[brand-guidelines](brand-guidelines/)** | Writes a full brand guidelines document through a canonical 8-section structure, with per-section references and three page tiers. | You need the brand book itself |
+| **[b2b-icp](b2b-icp/)** | Builds a B2B Ideal Customer Profile and buyer persona across six layers, from four input lenses, with a mandatory negative ICP. | "Who are we actually selling to?" |
+| **[b2b-sos-analysis](b2b-sos-analysis/)** | A 17-step strategic reading of Share of Search data: demand structure, Category Entry Point validation, mental availability. | You have SoS data and need a strategy, not a keyword report |
+| **[brand-strategy](brand-strategy/)** | Turns workshops, interviews and category research into positioning, personality, archetypes, CEPs and a messaging framework. | Starting a brand from inputs rather than a blank page |
+| **[brand-guidelines-site](brand-guidelines-site/)** | Extracts a brand system from a live site, a Figma file, or a codebase's tokens and renders it as a web page styled *in* the brand. | The guidelines should be a page, not a PDF |
+| **[case-study-writer](case-study-writer/)** | Turns project materials into a publishable case study with a specified voice and mandatory fact-checking. | Writing up finished work for a website |
+
+They compose. A typical sequence: `b2b-sos-analysis` → `b2b-icp` → `brand-strategy` →
+`brand-guidelines` → `brand-guidelines-site`, with `anti-skill` run against each output.
+
+## Install
+
+Copy the skills you want into your skills directory:
+
+```bash
+git clone https://github.com/bydiorama/skills.git
+cp -r skills/anti-skill ~/.claude/skills/
+```
+
+Use `~/.claude/skills/` for personal use, or a project's `.claude/skills/` to share them
+with a repo. Claude loads each skill's `SKILL.md` and pulls the `references/` and
+`resources/` files on demand.
+
+Each skill is a self-contained directory — take one, take all seven, nothing depends on
+anything outside its own folder.
+
+## Which one to start with
+
+**`anti-skill`** is the one to try first, and the one most likely to be useful outside a
+studio. It is not about brands at all: it takes any output — a document, a plan, a
+proposal, code — establishes what it was supposed to achieve, runs a set of validation
+modes chosen for that output type, verifies factual claims by search, and reports findings
+ranked by severity with a fix attached to each. It is deliberately hard to please.
+
+## Conventions
+
+Every skill follows the same shape:
+
+- `SKILL.md` — YAML frontmatter (`name`, `description`) plus the operating procedure. The
+  description is what Claude reads when deciding whether to load the skill, so it names the
+  trigger phrases and the exclusions.
+- `references/` — deep-dive material loaded on demand, not upfront.
+- `resources/` — templates and scripts the skill executes.
+
+## Provenance and rights
+
+The methodology in `brand-guidelines` is distilled from a structured review of roughly 180
+brand guideline documents spanning 1967–2026. **Those source documents are not distributed
+here.** They were third-party and client-confidential, and the per-document analyses,
+client project files, and example deliverables that once sat in this repository have been
+removed. What remains is the generalised craft knowledge — section structures, decision
+rules, specification checklists, anti-patterns — with examples described by sector rather
+than named.
+
+Published frameworks referenced by these skills are attributed to their authors and not
+reproduced. The twelve-archetype model in `brand-strategy`, for instance, is cited to Mark
+and Pearson's *The Hero and the Outlaw*; the skill does not ship the text or the diagrams.
+
+If you use these skills on client work, the same discipline applies: name a framework,
+don't copy it, and don't paste another agency's writing into your own.
+
+## Contributing
+
+Issues and pull requests welcome. If you are adding a skill, keep `SKILL.md` under ~200
+lines — anything longer is usually two skills, or documentation wearing a skill's
+frontmatter — and write the description as a trigger ("Use when…") rather than a summary. A
+description that only says what a skill *is* will never fire, and the failure is silent.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+Built by Diorama.
