@@ -1,18 +1,29 @@
+---
+name: brand-strategy
+description: >
+  Develop a comprehensive brand strategy from client interviews, workshop outputs, briefs
+  and category research. Use whenever the user asks to build, write, or structure a brand
+  strategy, brand positioning, brand platform, messaging framework, or brand foundation.
+  Trigger on "brand strategy", "positioning statement", "brand platform", "brand
+  positioning", "messaging framework", "value proposition", "brand purpose/mission/vision",
+  "brand personality", "brand archetypes", "category entry points", "CEPs", "competitive
+  differentiation", "white space analysis", or when the user uploads workshop outputs,
+  stakeholder interview transcripts, or a brand brief and asks what to do with them. Also
+  use for personal-brand strategy and for scoped work (positioning only, messaging only).
+  Do NOT use for: brand guidelines documents (use `brand-guidelines`), campaign briefs, ad
+  concepts, SEO strategy, or performance marketing plans. This is a strategy skill, not a
+  channel or creative skill.
+---
+
 # Brand Strategy
 
-A skill for developing comprehensive brand strategies for Diorama's clients. Transforms raw inputs — client interviews, workshop outputs, briefs, and online category research — into a structured brand strategy deliverable ready for client presentation.
+Turn raw inputs — client interviews, workshop outputs, briefs, and category research — into
+a structured brand strategy ready for presentation.
 
 ## Usage
 
-Invoke this skill when you need to develop a brand strategy:
-
 ```
 @brand-strategy
-```
-
-Or with specific materials:
-
-```
 @brand-strategy [path-to-materials]
 ```
 
@@ -36,7 +47,7 @@ If materials are incomplete, prompt the user for the missing essentials:
 
 ### Phase 2: Category Research
 
-Use WebSearch to conduct comprehensive category research. Follow the research pattern established in `resources/brand-strategy-prompts.md`, adapted to the client's specific category:
+Use WebSearch to conduct comprehensive category research, adapted to the client's specific category. Cover each of the following, and cite sources as you go:
 
 - **Category structure**: Identify main categories, subcategories, and category entry points (the situations or triggers that prompt people to seek out this category)
 - **Competitive landscape**: Map leading brands (national and regional), emerging players, product/service models, technology trends, and positioning approaches
@@ -51,7 +62,7 @@ Synthesize findings into actionable insights and identify areas of opportunity o
 
 ### Phase 3: Strategic Analysis
 
-Apply Diorama's workshop frameworks to structure the strategic analysis. Use all available inputs (workshop outputs, interviews, research) to build each layer:
+Apply the workshop frameworks to structure the strategic analysis. Use all available inputs (workshop outputs, interviews, research) to build each layer. `resources/brand-workshop-structure.md` defines each exercise:
 
 **Plus / Minus / Interesting (PMI)**
 Identify what makes the brand interesting, its core strengths, and any weaknesses or vulnerabilities. Use this as the foundation for all subsequent analysis.
@@ -87,9 +98,9 @@ Position the brand on the 11 attribute sliders:
 Provide a clear position on each slider with rationale. This is not a midpoint exercise — take a stance.
 
 **Brand Archetype**
-Identify three brand archetypes using the Pearson-Mark model (reference `resources/brand-archetypes_1-s2.0-S0007681322001355-main.pdf` and `resources/brand-archetypes.png`). For each archetype, also identify one complementary archetype — an archetype from a neighboring quadrant on the archetype wheel that balances or enriches the primary expression.
+Identify three brand archetypes using the twelve-archetype model popularised by Mark and Pearson in *The Hero and the Outlaw* (2001). For each archetype, also identify one complementary archetype — one from a neighbouring quadrant on the wheel that balances or enriches the primary expression.
 
-The Pearson-Mark model organizes 12 archetypes across four motivational quadrants:
+Cite the model by name; do not reproduce its diagrams or text. The framework organises 12 archetypes across four motivational quadrants:
 - **Independence & Fulfillment**: Innocent, Sage, Explorer
 - **Mastery & Risk**: Hero, Magician, Outlaw/Rebel
 - **Belonging & Enjoyment**: Jester, Lover, Everyman/Regular
@@ -110,10 +121,10 @@ The three archetypes should serve distinct roles:
 - **Secondary archetype**: Supports and enriches the primary — adds depth without contradicting the core
 - **Tertiary archetype**: A lighter influence that surfaces in specific contexts (e.g., certain audience segments, content types, or brand moments)
 
-Real-world examples for reference:
-- Nike: Hero (primary) + Magician (complementary) — mastery through transformation
-- Apple: Creator (primary) + Outlaw (complementary) — lasting value through rule-breaking
-- Dove: Caregiver (primary) + Innocent (complementary) — nurturing through simplicity
+Illustrative pairings:
+- Hero (primary) + Magician (complementary) — mastery achieved through transformation
+- Creator (primary) + Outlaw (complementary) — lasting value built by breaking the rules
+- Caregiver (primary) + Innocent (complementary) — nurturing expressed through simplicity
 
 **CEPs Canvas (Category Entry Points)**
 Map the 8 dimensions of when and why the market should think of this brand:
@@ -143,9 +154,7 @@ Synthesize research and analysis into clear strategic recommendations:
 
 ### Phase 5: Deliverable Assembly
 
-Compile the full brand strategy into a structured document. Reference the PDF deliverables in `resources/` as benchmarks for depth and quality:
-- `brand-strategy_20250123_IMS_Brand-Concept_v01.pdf` — B2B brand concept example
-- `brand-strategy_20251003_GEORGE-HILLARY_Personal-Brand-Guidelines_Round-02_v01.pdf` — Personal brand guidelines example
+Compile the full brand strategy into a structured document using the section order below. Every section should earn its place — cut any the scope does not require rather than filling it with generic content.
 
 ## Brand Strategy Deliverable Structure
 
@@ -265,10 +274,7 @@ The skill includes mandatory quality checks:
 
 ## Resource References
 
-- **Workshop framework**: `resources/brand-workshop-structure.md` — definitions of all workshop exercises (PMI, Rhetorical Triangle, Values, Personality, CEPs, Future Vision, Priority Matrix)
-- **Research prompt patterns**: `resources/brand-strategy-prompts.md` — example research briefs showing depth and scope expected for category research
-- **Brand archetypes**: `resources/brand-archetypes.png` and `resources/brand-archetypes_1-s2.0-S0007681322001355-main.pdf` — archetype theory and visual reference
-- **Example deliverables**: `resources/brand-strategy_20250123_IMS_Brand-Concept_v01.pdf` (B2B) and `resources/brand-strategy_20251003_GEORGE-HILLARY_Personal-Brand-Guidelines_Round-02_v01.pdf` (personal brand) — reference for output depth and quality
+- `resources/brand-workshop-structure.md` — definitions of every workshop exercise (PMI, Rhetorical Triangle, Values, Personality sliders, CEPs Canvas, Future Vision, Priority Matrix)
 
 ## Tips for Best Results
 
@@ -280,10 +286,9 @@ The skill includes mandatory quality checks:
 6. **Name competitors**: If the client already knows their competitive set, share it — it accelerates research
 7. **Share the ambition**: The Future Vision exercise (5-year headline) shapes the entire strategic direction
 
-## Continuous Improvement
+## Related skills
 
-After completing a brand strategy, invoke `@skill-reflect brand-strategy` to update this skill with validated learnings from the execution.
-
-## User-Invocable
-
-Yes - users can invoke this skill directly with `@brand-strategy`
+- `brand-guidelines` — turn the approved strategy into a brand guidelines document
+- `b2b-icp` — build the Ideal Customer Profile that the audience section should rest on
+- `b2b-sos-analysis` — validate Category Entry Points against real search demand
+- `anti-skill` — stress-test the finished strategy before it goes to the client

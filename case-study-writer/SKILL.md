@@ -1,19 +1,28 @@
+---
+name: case-study-writer
+description: >
+  Write a publication-ready project case study for a design studio, brand agency, or any
+  professional services firm, from raw materials — interview transcripts, press releases,
+  project documentation, decks, and client communications. Use whenever the user asks to
+  write, draft, or structure a case study, project story, portfolio piece, work page, or
+  "write up this project" for a website. Trigger on "case study", "project write-up",
+  "portfolio piece", "work page", "client story", "success story", or when the user
+  uploads project materials and asks to turn them into something publishable. Also use to
+  rewrite or tighten an existing case study. Do NOT use for: sales proposals, pitch decks,
+  press releases, marketing campaign briefs, or academic case studies. The deliverable is
+  narrative marketing content about completed work.
+---
+
 # Case Study Writer
 
-A skill for creating compelling case studies for design studios and brand communication agencies. Transforms raw materials like interviews, press releases, and project documentation into polished case studies ready for website publication.
+Turn raw project materials — interviews, press releases, documentation, decks — into a
+polished case study ready to publish.
 
 ## Usage
 
-Invoke this skill when you need to create a case study from project materials:
-
 ```
-/case-study-writer
-```
-
-Or with specific materials:
-
-```
-/case-study-writer [path-to-materials]
+@case-study-writer
+@case-study-writer [path-to-materials]
 ```
 
 ## What This Skill Does
@@ -152,29 +161,29 @@ The skill produces case studies that feel like a conversation with a smart, pass
 
 - **Self-aware without being precious**: A little self-deprecation goes a long way. If you're going long, own it. If something sounds like jargon, call it out and explain what you actually mean.
 
-- **Enthusiastic but grounded**: When something worked beautifully, let that excitement come through. "We could do so so so much with just these two shapes" is more compelling than "the visual system offered extensive possibilities."
+- **Enthusiastic but grounded**: When something worked beautifully, let that excitement come through. "Two shapes, and suddenly we could build anything" is more compelling than "the visual system offered extensive possibilities."
 
-- **Specific over generic**: "Took it straight to the legal department" beats "initiated the approval process." Real details create trust and interest.
+- **Specific over generic**: "She walked it down to legal that afternoon" beats "the approval process was initiated." Real details create trust and interest.
 
 - **Partnership-minded**: We see the world through our clients' eyes—their challenges become our challenges, their wins are shared wins. The case study tells the story of a collaboration, not a service delivery. We're partners working toward the same goal, and that mutual investment should come through in how we talk about the work.
 
 ### Prosody & Rhythm
 
-- **Mix short punchy sentences with longer flowing ones**: Creates energy and keeps readers moving. "He got the vision. He was sold on the spot. Now we just needed to get buy-in from 16 different CEOs."
+- **Mix short punchy sentences with longer flowing ones**: Creates energy and keeps readers moving. "He got it immediately. Sold, on the spot. Which left only the small matter of convincing everyone else."
 
-- **Use fragments strategically**: "Just a chance to get to know each other." "A creative and financial one." These create emphasis and conversational rhythm.
+- **Use fragments strategically**: "Just a conversation, to start." "A cost, and not only a creative one." These create emphasis and conversational rhythm.
 
-- **Embrace parenthetical asides**: They add intimacy and personality. "(and also my nervous system)" "(not knowing if this was even part of the product at all)"
+- **Embrace parenthetical asides**: They add intimacy and personality — a quick aside about what the team was actually feeling, or what nobody knew yet at that point in the project.
 
 - **Em dashes for emphasis and digression**: They're your friend for conversational breaks and added context.
 
 ### Vocabulary & Phrasing
 
-- **Plain language elevated by specificity**: Don't reach for fancy words. Reach for precise ones. "We put it together to give prospective clients an overview" is better than "We developed this resource to provide potential partners with a comprehensive summary."
+- **Plain language elevated by specificity**: Don't reach for fancy words. Reach for precise ones. "We wrote it so clients would know how we work before the first call" beats "We developed this resource to provide potential partners with a comprehensive summary."
 
-- **Colloquialisms have a place**: "Big guns," "sold on the spot," "bud"—these make writing feel alive. Use them where they fit naturally.
+- **Colloquialisms have a place**: Informal phrasing makes writing feel alive. Use it where it fits naturally, not as decoration.
 
-- **Unpack jargon, don't hide behind it**: If you must use industry terms, take a beat to explain. "Let's begin by unpicking the jargon a little…" is a great move.
+- **Unpack jargon, don't hide behind it**: If you must use an industry term, take a beat to explain it in plain words before moving on.
 
 - **Avoid the sea of sameness**: Generic phrases like "leveraging synergies," "best-in-class solutions," or "innovative approaches" say nothing. Find the real words for what actually happened.
 
@@ -182,9 +191,9 @@ The skill produces case studies that feel like a conversation with a smart, pass
 
 - **Lead with relatable context**: Start with something human—a problem everyone recognizes, a common frustration, a real moment. Then move into the specifics.
 
-- **Reveal process including the uncertainty**: Don't pretend you knew everything would work. "There's no way they are going to let us get away with this" is honest and engaging storytelling.
+- **Reveal process including the uncertainty**: Don't pretend you knew everything would work. Admitting "we were fairly sure they would never approve it" is honest and engaging storytelling.
 
-- **Use analogies that connect**: "A relationship between a brand and its audience is no different from personal relationships" makes abstract concepts tangible.
+- **Use analogies that connect**: Comparing a brand's relationship with its audience to an ordinary human relationship makes an abstract idea tangible.
 
 - **Let the work breathe**: Not everything needs to be explained or justified. Sometimes you show what you made and trust the reader to see why it matters.
 
@@ -243,15 +252,15 @@ The skill should:
 3. Save to the appropriate subdirectory in the case studies folder
 4. Confirm file location to the user
 
-## Example Output
+## What good looks like
 
-See the TYO case study as the reference template:
-- Accessible yet elevated tone
-- Agency-focused narrative
-- Concrete details and credentials
-- Balanced product context
-- Structured sections with clear hierarchy
-- Fact-verified content
+A finished case study should read as:
+- Accessible yet elevated in tone
+- Agency-focused in narrative, client-grounded in context
+- Concrete in its details and credentials
+- Balanced in how much product context it carries
+- Clearly structured, with a scannable hierarchy
+- Fact-verified end to end
 
 ## Tips for Best Results
 
@@ -263,10 +272,14 @@ See the TYO case study as the reference template:
 6. **Gather Presentations**: Slide decks often contain structured data and visuals
 7. **Access Live Work**: Review the actual website/product to understand execution quality
 
-## Continuous Improvement
+## Related skills
 
-After completing a case study, invoke `@skill-reflect case-study-writer` to update this skill with validated learnings from the execution.
+- `brand-strategy` — the strategic work a case study is often describing
+- `anti-skill` — stress-test the draft before it is published
 
-## User-Invocable
+## Sourcing and rights
 
-Yes - users can invoke this skill directly with `/case-study-writer`
+Everything in the case study must trace to a supplied source. Do not quote a client, a
+partner, or a press article without confirming the studio has permission to publish it, and
+do not lift phrasing from another agency's published writing — describe the pattern and
+write it fresh.

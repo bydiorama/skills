@@ -2,7 +2,7 @@
 
 Position 4 (85% consensus). The MOST UNIVERSAL section among documents reviewed — present in 97.8% of documents, ahead of even logo (95%). Only four documents across everything reviewed omit color, and all are narrowly scoped supplements.
 
-Color is also Diorama's **strongest measurable differentiator**: 4.1 specification formats per color vs. 2.8 industry average.
+Colour is also the cheapest place to out-specify the field: the best documents carry roughly 4 specification formats per colour against an industry average nearer 3. Adding one more format is a day's work and it shows.
 
 ## Required subsections
 

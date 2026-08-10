@@ -27,9 +27,7 @@ Typography is where amateur guidelines are exposed. "Use Helvetica" is not typog
 | **Bespoke / custom** | ~25% | A commissioned family, often named after the brand | Enterprise-scale, want true distinction |
 | **Open-source / system** | ~20% | Inter, IBM Plex, system stacks | Tight budget, technical brands, high accessibility |
 
-**Diorama-favored foundries** (Central European typography character):
-- Displaay (Prague) — appears in 5+ Diorama projects
-- Boutique foundries: Sans Plomb 98, Haffer, Matter
+**Look past the obvious foundries.** Independent and regional foundries carry character that the default choices do not, usually at a friendlier licence. Build a shortlist you actually know rather than reaching for the same three families on every project.
 
 When proposing a typeface, justify the choice in one sentence: what voice does it carry? what's it doing better than the obvious default?
 
