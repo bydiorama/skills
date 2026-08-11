@@ -1,4 +1,4 @@
-# Diorama Brand Workshop Structure
+# Brand Workshop Structure
 
 ## Plus/Minus/Interesting
 The PMI method (Plus, Minus, Interesting) helps us quickly identify what makes us interesting, our strengths, and also highlights any weaknesses. It aids in aligning our thoughts based on initial associations.

@@ -1,18 +1,18 @@
 # Extended Elements (Modern Best Practice)
 
-Beyond the canonical 8 sections, modern brand guidelines increasingly include extended sections that the corpus identifies as **systemic gaps** — areas where adoption is below 10% but where adoption confers a meaningful competitive edge.
+Beyond the canonical 8 sections, modern brand guidelines increasingly include extended sections that the research identifies as **systemic gaps** — areas where adoption is below 10% but where adoption confers a meaningful competitive edge.
 
 Include these for **Comprehensive tier** projects, or for any brand with a digital product, or when targeting enterprise-scale stakeholders.
 
-## The five industry gaps (from corpus meta-analysis)
+## The five industry gaps
 
-| Gap | Corpus coverage | Opportunity |
+| Gap | Coverage observed | Opportunity |
 |-----|----------------:|-------------|
 | Accessibility | ~8% | Largest compliance risk in the industry; mandatory in some jurisdictions |
 | Dark mode / responsive | ~10% | Universal device diversity; almost no documents address |
-| AI usage policy | ~1% | Adobe alone (E019) addresses substantively; Wave (E064) uses Midjourney |
-| Sustainability | ~3% | SPACE10, Nike Circularity, DEUS only — ESG mandatory soon |
-| Design tokens / dev handoff | ~5% | Marina Dorcol (D008), Widelab examples — efficiency opportunity |
+| AI usage policy | ~1% | Almost nobody addresses it substantively; a few document generative-image prompts |
+| Sustainability | ~3% | Almost absent today; ESG reporting will make it mandatory |
+| Design tokens / dev handoff | ~5% | Rare, and the clearest efficiency opportunity |
 
 A toolkit-generated document that includes ALL FIVE places ahead of 92%+ of the existing market.
 
@@ -39,22 +39,21 @@ WCAG 2.2 (current as of 2024) is the global de facto standard. Reference the 2.1
 - axe DevTools
 - WebAIM Contrast Checker
 
-### Top corpus examples
+### What the strongest documents do
 
-- **E074 Docusign** (5/5) — accessibility threaded throughout
-- **E125 Tupperware** (4.5/5) — full ADA-compliant pairing matrix for 27 colors
-- **E141 Research Ireland** — accessibility section
-- **E090 Strava** (5/5) — contrast ratios documented
-- **E159 NMAAHC** (4.5/5) — concrete accessibility guidelines
+- Thread accessibility through every section rather than isolating it
+- Ship a pairing matrix for large palettes, marking which combinations pass
+- Document contrast ratios alongside the swatches, not in an appendix
+- Give concrete, testable rules rather than a statement of intent
 
 ## 2. Dark mode
 
-Almost no corpus document covers this. For any brand with a digital product, dark mode is now table-stakes.
+Almost no reviewed document covers this. For any brand with a digital product, dark mode is now table-stakes.
 
 ### Required content
 
 - **Dark-mode color tokens** — equivalents for each light-mode token, defined as relationships not duplicates
-- **Background hierarchy** — Twitch (E044) uses a 4-level background system; copy that pattern
+- **Background hierarchy** — a 4-level background system (base, raised, overlay, accent) is the pattern worth copying
 - **Inversion rules** — which colors invert (text/background) and which are theme-stable (brand color, semantic warning)
 - **Logo behavior** — when to switch to reversed variant; whether to color-shift the brandmark
 - **Image treatment** — photos may need a darker overlay in dark mode
@@ -76,14 +75,14 @@ brand.primary            #2F73DB           #5B9CFF      (often lifted in dark)
 
 ## 3. AI usage policy
 
-Only Adobe (E019) addresses this with substance. Pattern this section after Adobe's "qualification process for Adobe Sensei AI claims" and extend.
+Almost nobody addresses this with substance. Pattern the section after a "qualification process for AI claims" and extend.
 
 ### Required content
 
 - **Permitted uses** — drafting, summarization, ideation, image-prompt generation
 - **Prohibited uses** — generating final-public-facing copy without human review; AI-generated images presented as photography of real people / events; AI-generated quotes attributed to real individuals
 - **Disclosure rules** — when to label AI-assisted content
-- **Brand voice in AI prompts** — sample prompts that produce on-voice output (Wave's Midjourney pattern, E064)
+- **Brand voice in AI prompts** — sample prompts that reliably produce on-voice output
 - **AI tool whitelist** — which tools are sanctioned (Claude, ChatGPT, Midjourney, etc.) and at which tier (free, business, enterprise)
 - **Data safety** — never input customer PII or proprietary product info into consumer AI tools
 - **Hallucination protection** — fact-check rules; brand-claim verification process
@@ -96,7 +95,7 @@ Only Adobe (E019) addresses this with substance. Pattern this section after Adob
 
 ## 4. Sustainability / environmental
 
-Only three corpus documents (SPACE10, Nike Circularity E153, DEUS D006) address sustainability with substance. Mandatory direction for ESG-reporting brands.
+Barely any guidelines address sustainability with substance. Mandatory direction for ESG-reporting brands.
 
 ### Required content
 
@@ -105,7 +104,7 @@ Only three corpus documents (SPACE10, Nike Circularity E153, DEUS D006) address 
 - **Digital sustainability** — image weight budgets, dark mode for energy savings, web font subsetting
 - **Lifecycle considerations** — disposal, recyclability of branded merchandise
 - **Supplier certifications** — FairTrade, B Corp, recycled-content thresholds
-- **Carbon accounting** — design production emissions estimate (SPACE10 pattern)
+- **Carbon accounting** — an estimate of the emissions attributable to design production
 
 ## 5. Design tokens and developer handoff
 
@@ -136,15 +135,15 @@ The bridge from "brand guidelines PDF" to "design tokens JSON" is the largest ef
 - **Naming convention** — scale.tier.purpose.state (e.g. `color.brand.primary.hover`)
 - **Token doc** — auto-generated from the tokens file
 
-### Top corpus examples
+### What the strongest documents do
 
-- **D008 Marina Dorcol** — Family.Weight typographic naming
-- **E047 Widelab** — cubic-bezier animation curves as tokens
-- **E063 IBM Garage** — modular "Scaffolding" framework
+- `Family.Weight` typographic naming that maps straight onto tokens
+- Cubic-bezier animation curves published as named tokens
+- A modular scaffolding framework rather than fixed layouts
 
 ## 6. Motion and animation
 
-Only ~10% of corpus covers motion. Increasingly important for digital brands.
+Only about 10% of documents reviewed cover motion. Increasingly important for digital brands.
 
 ### Required content
 
@@ -160,12 +159,12 @@ Only ~10% of corpus covers motion. Increasingly important for digital brands.
 - **Loop behavior** — for ambient animations
 - **Reduced-motion compliance** — `prefers-reduced-motion` mapped to alternative
 
-### Top corpus examples
+### What the strongest documents do
 
-- **D033 NOVEBA** (4.5/5) — 24+ fps frame-rate specs
-- **E047 Widelab** — Cubic-bezier values
-- **E088 Virgin Media** — Motion as a separate dedicated section
-- **E104 NatGeo** — Index motion system
+- Frame-rate specifications (24+ fps) alongside the motion style
+- Cubic-bezier easing values, not adjectives like "smooth"
+- Motion given its own dedicated section rather than a paragraph in graphics
+- A named, indexed motion system so animators can request a specific behaviour
 
 ## 7. Brand architecture
 
@@ -180,12 +179,12 @@ For multi-brand / multi-product / acquired-brand portfolios.
 - **Acquired-brand transition** — how to phase from acquired identity to parent
 - **Naming conventions** — "[Parent] [Sub-brand]" vs "[Sub-brand] by [Parent]" vs "[Sub-brand]" alone
 
-### Top corpus examples
+### What the strongest documents do
 
-- **E082 HSBC** (5/5) — Multi-entity system, version-controlled
-- **E067 Howden** (5/5) — Transition branding protocol for acquisitions
-- **E075 AB InBev** (5/5) — Dual market strategy (Budweiser/Bud)
-- **D016 Corwin** — Sub-brand section
+- A multi-entity system, version-controlled, with a rule per entity type
+- A transition-branding protocol covering what happens during and after an acquisition
+- A dual-market strategy where the same product carries different names by territory
+- A dedicated sub-brand section rather than ad-hoc exceptions
 
 ## 8. Governance
 
@@ -201,12 +200,12 @@ Who owns the brand, who approves uses, how disputes resolve.
 - **Version + changelog** — current version, last-major-update date
 - **Contact** — single point of contact for brand questions
 
-### Top corpus examples
+### What the strongest documents do
 
-- **E015 RAC** (5/5) — "Who to talk to" governance section + Media Garage internal asset resource
-- **E001 DPD** — version history 2007–2013
-- **E082 HSBC** — version-controlled with changelog
-- **E054 Smithsonian** — self-described "always a work-in-progress"
+- A "who to talk to" governance section, plus a named internal asset resource
+- A published version history spanning several years
+- Version control with a visible changelog
+- An explicit statement that the document is always a work in progress
 
 ## When to include extended elements
 

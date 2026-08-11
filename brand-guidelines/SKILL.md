@@ -5,11 +5,13 @@ description: Create comprehensive brand guidelines documents (also called brand 
 
 # Brand Guidelines
 
-Build a complete, production-ready brand guidelines document by working section-by-section through the canonical 8-section structure, grounded in patterns from a research corpus of 180 brand guidelines spanning 1967–2026.
+Build a complete, production-ready brand guidelines document by working section-by-section through the canonical 8-section structure.
+
+The section order, the frequency figures and the anti-patterns cited throughout the references come from a structured review of roughly 180 brand guideline documents spanning 1967–2026. The findings are distilled here; the source documents are third-party and client-confidential and are deliberately not distributed with this skill.
 
 ## Core principle
 
-**Understand the brand before writing the document.** Generic brand guidelines are the #1 anti-pattern in the corpus. Documents that open with strategic context score 4.1/5 on average; those that jump straight to logo rules score 3.0/5. Phase 1 (context discovery) is mandatory and non-skippable.
+**Understand the brand before writing the document.** Generic brand guidelines are the single most common failure mode. Documents that open with strategic context are consistently rated far more useful than those that jump straight to logo rules. Phase 1 (context discovery) is mandatory and non-skippable.
 
 ## Workflow
 
@@ -38,14 +40,14 @@ Confirm with the user which tier fits, defaulting to **Standard** unless context
 | Tier | Pages | Template | Use case |
 |------|-------|----------|----------|
 | **Compact** | 20–30 | `templates/compact-template.md` | Startup, sub-brand, partner/quick guide, supplement |
-| **Standard** | 30–50 | `templates/standard-template.md` | Most projects (corpus median is 39pp) |
+| **Standard** | 30–50 | `templates/standard-template.md` | Most projects (the median document is ~39pp) |
 | **Comprehensive** | 60–90 | `templates/comprehensive-template.md` | Enterprise, multi-market, multi-product |
 
 Load the matching template as the scaffold for the document. Replace bracketed placeholders with discovered content; do not deliver the document with `[brackets]` still in place.
 
 ### Phase 3 — Draft sections in canonical order
 
-The eight canonical sections, in the order used by 60% of the corpus and 96–100% consensus at positions 1 and 8:
+The eight canonical sections, in the order used by around 60% of documents reviewed, with near-total consensus at positions 1 and 8:
 
 | # | Section | Reference | Always? |
 |---|---------|-----------|---------|
@@ -68,7 +70,7 @@ For modern extensions (motion, brand architecture, accessibility, design tokens,
 
 ### Phase 4 — Style the document itself
 
-The guidelines document should usually speak IN the brand's voice (avg. 4.1/5) rather than in neutral consultant-register (avg. 3.4/5). Use `references/12-writing-the-guidelines.md` to calibrate. The default register is **hybrid**: narrative context + precise specification, alternating between "why" and "how."
+The guidelines document should usually speak IN the brand's voice rather than in neutral consultant-register — documents written in voice consistently rate higher for usefulness. Use `references/12-writing-the-guidelines.md` to calibrate. The default register is **hybrid**: narrative context + precise specification, alternating between "why" and "how."
 
 ### Phase 5 — Quality check
 
@@ -84,27 +86,22 @@ If any are present and unaddressed, flag them to the user with remediation optio
 
 ## Output format
 
-**Default**: a single Markdown document with clear section headers, ready for conversion to .docx via the `md-to-docx` skill or for handoff to layout (Figma, InDesign).
+**Default**: a single Markdown document with clear section headers, ready for conversion to .docx or for handoff to layout (Figma, InDesign).
 
 **Per-section structure**: opening narrative (1–2 paragraphs in the brand's voice) → specifications (tables / exact values) → applications / examples → don'ts.
 
 If the user wants a Figma-ready or InDesign-ready output, produce the Markdown content first, then ask whether to also generate Figma artboards (use `figma:figma-generate-design` skill) or handoff specs.
-
-## Research foundation
-
-`resources/` contains a deep analysis of 180 brand guideline documents:
-- `resources/meta-analysis/00-summary.md` — executive summary, Platinum Standard, P0/P1/P2 toolkit features
-- `resources/meta-analysis/03-structure-patterns.md` — section frequency, ordering consensus, tier sizing
-- `resources/meta-analysis/06-best-practices.md` — patterns of top-scoring documents, anti-patterns of low-scoring ones
-- `resources/independent-studies/` — eight per-section deep dives (strategy, logo, typography, color, graphics, photography, applications, outliers)
-- `resources/per-document/` — 180 individual document analyses (Diorama studio + 144 external)
-
-Reference these directly when the user asks "what do other brands do?" or "show me an example of [pattern]". Cite document IDs (D### for Diorama, E### for external) when pulling examples — they map to entries in `resources/_DOCUMENT-REGISTRY.md`.
 
 ## Key triggers and behaviors
 
 - **User shares a logo + asks for guidelines** → Phase 1 discovery first, do not start writing logo rules
 - **User shares an existing guidelines PDF and asks to extend** → Read the existing first, then identify gaps against the Fatal Five and Platinum Standard
 - **User wants only one section** → Load that section's reference and produce just that section, but flag the broader gaps
-- **User says "make it look like [Brand X]"** → Check if Brand X is in the corpus; if so, pull the analysis and adapt the relevant patterns
+- **User says "make it look like [Brand X]"** → Do not reproduce Brand X's system. Ask what they admire about it — rigor? minimalism? authority? warmth? — and apply that quality to their own brand
 - **User asks for a tier different from the default** → Confirm and load the matching template
+
+## Related skills
+
+- `brand-strategy` — produce the strategic foundation Phase 1 depends on
+- `brand-guidelines-site` — render the system as a web page instead of a document
+- `anti-skill` — run the finished document through an adversarial review

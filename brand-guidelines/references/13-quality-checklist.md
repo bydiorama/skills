@@ -1,6 +1,6 @@
 # Phase 5: Quality Checklist
 
-Run this before delivering the document. The checklist is calibrated to the **Platinum Standard** (synthesizing patterns from the 27 documents scoring 5/5 in the 180-doc corpus) and screens for the **Fatal Five** omissions that mark low-scoring documents.
+Run this before delivering the document. The checklist is calibrated to the **Platinum Standard** (synthesizing patterns from the 27 documents scoring 5/5 in the ~180 documents reviewed) and screens for the **Fatal Five** omissions that mark low-scoring documents.
 
 ## The Fatal Five — non-negotiable screens
 
@@ -48,7 +48,7 @@ Don't omit the section entirely.
 
 ## Platinum Standard scorecard
 
-For a document to score 4.5+ / 5.0 (top tier of the corpus), it should hit the following thresholds. Score each on 1–5; aim for ≥4 across the board.
+For a document to score 4.5+ / 5.0 (the top tier), it should hit the following thresholds. Score each on 1–5; aim for ≥4 across the board.
 
 | Dimension | Threshold for 5/5 | Self-score 1–5 |
 |-----------|-------------------|--------------:|
@@ -83,7 +83,7 @@ For Comprehensive tier projects, also verify:
 | AI usage policy | Recommended | __ |
 | Sustainability / materials policy | If ESG-relevant | __ |
 
-Including 4+ extended elements places the document ahead of 90% of the corpus.
+Including 4+ extended elements places the document ahead of 90% of the field.
 
 ## Spot-check anti-patterns
 

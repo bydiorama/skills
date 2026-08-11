@@ -128,6 +128,21 @@ ALWAYS use this structure. Scale length to match the output — a 3-line email g
 ## Suggested Next Steps (prioritized)
 ```
 
+#### Optional: shareable HTML report
+
+When the report is going to someone who was not in the conversation — a client, a board, a
+reviewer — render it as a standalone HTML file instead of pasting Markdown:
+
+```bash
+python3 resources/generate_validation_report.py findings.json --output report.html
+```
+
+Write `findings.json` in the schema documented at the top of that script (context,
+executive_summary, findings[], strengths[], perspectives_explored[], next_steps[]). It is
+stdlib-only — no install step. `resources/sample-report.html` shows the rendered result.
+
+Use it when the report is a deliverable; skip it for inline feedback.
+
 ### Phase 5: Close the Loop
 
 Offer: fix critical issues, go deeper on specific findings, or re-validate after changes.
@@ -181,3 +196,9 @@ Read `references/agent-prompts.md` for the template and role definitions.
 - **Verified Claim:** Revenue figures and YoY growth are internal metrics — not externally verifiable but internally consistent.
 - **Strength:** Clean, concise, leads with the most important number.
 - **Suggested fix:** Update the SaaS CAGR figure, add plan-vs-actual comparison, a specific forward target, and one honest challenge.
+
+## Related skills
+
+Point this at the output of any other skill in this collection — a brand strategy, an ICP,
+a case study, a guidelines document — or at anything produced elsewhere. It is
+source-agnostic by design.

@@ -1,6 +1,6 @@
 # Section 8 — Tone of Voice
 
-Position 8 (100% consensus when present). Present in 79.4% of the corpus — the most-skipped of the canonical sections.
+Position 8 (100% consensus when present). Present in 79.4% of documents reviewed — the most-skipped of the canonical sections.
 
 Including TOV is the second-largest quality differentiator after photography (+19% delta between top and bottom-rated documents). It is also the area where the most sophisticated frameworks have emerged in recent years — a discipline rapidly maturing from afterthought to strategic asset.
 
@@ -13,18 +13,18 @@ Including TOV is the second-largest quality differentiator after photography (+1
 | 3 | Personality traits / tension pairs | Always |
 | 4 | Worked examples (do/don't pairs) | Always — non-negotiable |
 | 5 | Vocabulary — words we use / avoid | Standard+ |
-| 6 | Channel-specific guidance | Comprehensive (industry gap — only 4% of corpus) |
+| 6 | Channel-specific guidance | Comprehensive (industry gap — only 4% include it) |
 | 7 | Linguistic rules (caps, contractions, punctuation, numbers) | Standard+ |
 | 8 | Localization / multilingual | When applicable |
 
 ## Voice vs tone — the foundational distinction
 
-- **Voice** is what doesn't change. It's the brand's underlying personality. Apple is always direct and confident. IKEA is always warm and accessible.
+- **Voice** is what doesn't change. It's the brand's underlying personality. One brand is always direct and confident. Another is always warm and accessible.
 - **Tone** is how voice flexes by context. Same brand, different mood: a celebratory product launch ≠ a service outage apology ≠ a legal disclosure.
 
 Document both. Many guidelines conflate them and end up with neither.
 
-## Four framework patterns (corpus-validated)
+## Four framework patterns
 
 Pick ONE primary framework. Mixing creates confusion.
 
@@ -32,7 +32,7 @@ Pick ONE primary framework. Mixing creates confusion.
 
 3–5 named adjectives, ideally with anti-definitions.
 
-**Example — Channel 4 (E025):**
+**Example — a broadcaster:**
 - Innovative — but never gimmicky
 - Independent — but never aloof
 - Irreverent — but never cruel
@@ -43,7 +43,7 @@ Pick ONE primary framework. Mixing creates confusion.
 
 Two-axis statements that force precision.
 
-**Example — Lunchbox (E117):** 8 tension pairs structured as dialectical opposites:
+**Example — a hospitality tech brand,** 8 tension pairs structured as dialectical opposites:
 - Confident but not arrogant
 - Playful but not unprofessional
 - Direct but not blunt
@@ -52,11 +52,11 @@ Two-axis statements that force precision.
 
 **Strength:** anti-definitions are sharper than positive-only statements.
 
-### 3. Tonal dials (the Virgin Media model)
+### 3. Tonal dials
 
 The most sophisticated. Define 3–5 dimensions, each with a calibration scale.
 
-**Virgin Media MOJO system (E088):**
+**A telecoms operator's dial system:**
 - Energy: Low ←————●———→ High
 - Formality: Casual ←—●———————→ Formal
 - Confidence: Quiet ←———————●—→ Bold
@@ -64,17 +64,17 @@ The most sophisticated. Define 3–5 dimensions, each with a calibration scale.
 
 For each context (TV ad / customer email / outage notice / careers page), document where each dial sits.
 
-### 4. Journey-mapped tone (the Bumble model)
+### 4. Journey-mapped tone
 
 Tone calibrated to the user's emotional state at each step of the journey.
 
-**Bumble (E061):** voice mapped from "vulnerable" through "hopeful" across the user journey (signup → first match → first message → meeting → relationship).
+**A consumer dating app:** voice mapped from "vulnerable" through "hopeful" across the user journey (signup → first match → first message → meeting → relationship).
 
 **Strength:** highly contextual; assumes a clear customer journey.
 
 ## Worked examples — Do/Don't is non-negotiable
 
-The corpus is brutal here:
+The research is unambiguous here:
 
 - Documents with **Do/Don't pairs** average 3.8/5
 - Documents with **Don'ts only** average 2.5/5
@@ -99,14 +99,14 @@ Document specific words and phrases:
 
 ### Words we use
 - Brand-specific terms (often product names or category words)
-- Preferred general terms (e.g. Strava: "athletes" not "users"; Apple: "magical" allowed in specific contexts)
+- Preferred general terms (e.g. "athletes" not "users"; a signature adjective permitted only in specific contexts)
 - Sanctioned colloquialisms
 
 ### Words we avoid
 - Industry jargon the audience won't recognize
 - Words competitors over-use
 - Hedged / corporate filler ("synergize," "leverage," "best-in-class")
-- Brand-specific avoidances (Bumble: no "shoot/shot" language; no bee imagery/puns)
+- Brand-specific avoidances (e.g. a dating app banning "shoot/shot" language, and puns on its own mascot)
 
 ## Linguistic rules
 
@@ -116,7 +116,7 @@ Document the granular preferences:
 |------|---------|
 | Contractions | "Preferred" (Origameo); "Always use we're, don't, won't" |
 | Capitalization | Sentence case for headlines; never UPPERCASE except in approved devices |
-| Punctuation | One exclamation point max (Bumble); curly quotes only |
+| Punctuation | One exclamation point max; curly quotes only |
 | Oxford comma | Yes / No — pick a rule |
 | Numbers | Spell out under 10; use numerals 10+; always numerals for prices, percentages, time |
 | Dates | Format spec (e.g. "5 May 2026" vs "May 5, 2026" vs "2026-05-05") |
@@ -124,11 +124,11 @@ Document the granular preferences:
 | Quotation | Block quotes vs inline; attribution format |
 | Bold / italic | When to use; bold ≠ shouting |
 
-Top corpus example: **Ogilvy Typography (E085, 5/5)** prohibits the "gi" ligature — that's how granular linguistic precision can get.
+The most granular example encountered: a typography manual that prohibits one specific ligature by name. Linguistic precision can go that far when the brand warrants it.
 
 ## Channel-specific tone
 
-Only 4% of the corpus addresses this — major industry gap. Adding it is a competitive edge.
+Very few guidelines address this — a major industry gap, and therefore a cheap competitive edge.
 
 Map tone to channel:
 
@@ -154,16 +154,18 @@ If the brand operates across languages:
 - **Local idiom** — allowed? forbidden? case-by-case
 - **Approval workflow** — who signs off on local copy
 
-Most corpus documents miss this entirely.
+Most guidelines miss this entirely.
 
 ## The document's own voice
 
 The strongest TOV sections are written IN the brand's voice, not about it.
 
-- **IKEA TOV (E092)** — the doc itself sounds like IKEA: "Yay, it's Monday!"
-- **Spotify (E100)** — opens with "Hej hej"
-- **Klarna (E053)** — "Resist the temptation to change aspects of the system with which your personal tastes may disagree."
-- **Strava (E090)** — "The writing itself exemplifies the brand voice."
+Patterns worth stealing:
+
+- A homewares retailer whose voice document is itself chatty and warm, opening on a cheerful aside rather than a definition
+- A music streaming brand that greets the reader in its founders' native language before saying anything about voice
+- A fintech whose rules are written with the same dry confidence it asks its writers for
+- A fitness platform where the prose of the section is itself the proof of the voice
 
 The TOV section is the highest-stakes test: if a brand can't write the section in its own voice, the voice isn't real yet.
 
@@ -178,22 +180,8 @@ The TOV section is the highest-stakes test: if a brand can't write the section i
 ## Anti-patterns
 
 - **Single page that says "be friendly, be professional, be clear."** Useless. Cut and replace.
-- **Affirmative-only ("things to embrace," no "things to avoid").** Titans TOV (D019) explicitly notes this gap.
+- **Affirmative-only ("things to embrace," no "things to avoid").** Without anti-definitions, writers have nothing to check against.
 - **Channel-agnostic guidance for a multi-channel brand.** Tone for Twitter ≠ tone for legal disclosure.
-
-## Reference examples from the corpus
-
-- **E088 Virgin Media** (5/5) — MOJO tonal dial system; THE benchmark
-- **E061 Bumble** (5/5) — Journey-mapped tone, vulnerable-to-hopeful spectrum
-- **E117 Lunchbox** — 8 tension-pair voice framework
-- **E092 IKEA TOV** — Document itself exemplifies the voice
-- **E135 Burger King** (5/5) — Extensive do/don't examples per voice characteristic
-- **E090 Strava** (5/5) — "Athletes, never users"; voice exemplified throughout
-- **D019 Titans Freelancers** — 10-axis persona spectrum + circular archetype map
-- **E090 Strava** — "Imperfectly beautiful" extended to copy
-- **E025 Channel 4** — Sharp provocative example headlines that demonstrate the voice
-- **E101 Pleo** — "Pleo rhymes with Rio" — voice on the cover
-
 ## When the brand has no voice yet
 
 Default opening framework to propose to the user:

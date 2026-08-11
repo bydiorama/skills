@@ -1,6 +1,6 @@
 # Canonical Structure
 
-The 8-section structure used by 60% of the 180-document corpus, with 96–100% consensus at the bookend positions. This is the default scaffold for every brand guidelines document.
+The 8-section structure used by 60% of the ~180 documents reviewed, with 96–100% consensus at the bookend positions. This is the default scaffold for every brand guidelines document.
 
 ## The eight sections
 
@@ -15,7 +15,7 @@ The 8-section structure used by 60% of the 180-document corpus, with 96–100% c
 8. Tone of Voice         ← 100% (always closes)
 ```
 
-**Section presence in the corpus:**
+**Section presence among documents reviewed:**
 
 | Section | Present in | Tier |
 |---------|-----------:|------|
@@ -42,7 +42,7 @@ The 8-section structure used by 60% of the 180-document corpus, with 96–100% c
 | Tier | Pages | Section depth | Use case |
 |------|-------|---------------|----------|
 | **Compact** | 20–30 | One spread per section, no extended elements | Startup MVP, sub-brand, partner/quick guide |
-| **Standard** | 30–50 | 2–4 spreads per section, all 8 sections, basic extended elements | Most projects (corpus median = 39pp) |
+| **Standard** | 30–50 | 2–4 spreads per section, all 8 sections, basic extended elements | Most projects (median = 39pp) |
 | **Comprehensive** | 60–90 | 4–8 spreads per section, full extended elements (motion, architecture, accessibility, governance) | Enterprise, multi-market, public-sector, multi-product |
 | Extended | 100+ | Custom | Not a template — bespoke project |
 
@@ -53,7 +53,7 @@ The 8-section structure used by 60% of the 180-document corpus, with 96–100% c
 
 ## Format
 
-- **Default**: 1920×1080 landscape (63.5% of corpus, near-100% post-2018)
+- **Default**: 1920×1080 landscape (63.5% of documents reviewed, near-100% post-2018)
 - **Alternative**: A4 portrait (27.6%, for institutional / print-production / archival)
 - **Choose A4 portrait when**: heavy regulatory/legal content, designed for print production, public-sector or institutional brand, has dense long-form text
 
@@ -80,7 +80,7 @@ Documents that ship 8 slots (with placeholders) outperform documents that ship 6
 These do NOT get their own canonical section but should be threaded through:
 
 - **Versioning + changelog** — ideally on the cover or back page
-- **Contact / governance** — "who to talk to" page (see RAC E015)
+- **Contact / governance** — a "who to talk to" page naming the brand owner and the request route
 - **Asset locations** — link to file repository, CMS, or DAM
 - **Update cadence** — when the document is reviewed (annual / per-major-release)
 
@@ -88,5 +88,5 @@ These do NOT get their own canonical section but should be threaded through:
 
 - Always include the Logo, Color, Typography, Applications quartet — these never get cut
 - Brand Strategy goes first even when thin (use `references/03-brand-strategy.md` to elicit content from the user)
-- TOV is the most-skipped section in the corpus (79.4% present); push the user to include it — its inclusion correlates with a +19% quality lift
+- TOV is the most-skipped canonical section (present in 79.4%); push the user to include it — its inclusion correlates with a +19% quality lift
 - Photography is the strongest quality differentiator (+53% delta between top and bottom-rated docs); push the user to commit to a photography direction even if the asset library doesn't yet exist

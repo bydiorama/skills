@@ -252,7 +252,7 @@ Each with mockup + production specs + template link:
 [When to create one; lockup format; approval.]
 
 ## 10.3 Acquired-brand Transition Protocol
-[How to phase from acquired identity to parent — Howden E067 model.]
+[How to phase from an acquired identity to the parent brand, and over what timeline.]
 
 ## 10.4 Co-branding & Partnership Hierarchy
 [Primary / secondary / endorsement format.]
@@ -267,7 +267,7 @@ Each with mockup + production specs + template link:
 (Use full Standard structure — and add):
 
 ## 11.6 Tonal Dial / Spectrum System
-[3–5 dimensions with calibration scales — Virgin Media MOJO model.]
+[3–5 dimensions, each with a calibration scale and marked danger zones at the extremes.]
 
 ## 11.7 Channel Matrix
 [Per-channel tone calibration: web, email, support, legal, crisis, social, in-product.]

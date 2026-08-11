@@ -1,8 +1,8 @@
 # Section 6 — Photography
 
-Position 6 (70% consensus). Present in 77.2% of the corpus.
+Position 6 (70% consensus). Present in 77.2% of documents reviewed.
 
-**The single strongest quality differentiator in the entire corpus.** Documents WITH dedicated photography sections average 4.0/5; without, 3.0/5. Among 5/5 documents, 97% include photography; among 2/5 documents, only 44% — a +53 percentage-point delta, the largest gap of any section.
+**The single strongest quality differentiator across everything reviewed.** Documents WITH dedicated photography sections average 4.0/5; without, 3.0/5. Among 5/5 documents, 97% include photography; among 2/5 documents, only 44% — a +53 percentage-point delta, the largest gap of any section.
 
 Including photography direction signals a mature, investment-grade brand system.
 
@@ -29,7 +29,7 @@ Include the section if any of these are true:
 - The brand uses stock photography (still needs direction)
 
 Placeholder if:
-- The brand is purely illustration-led (Byteminds D027 — uses 3D rendering instead)
+- The brand is purely illustration-led, or replaces photography with 3D rendering
 - The brand is digital-only with no human/object subjects (some SaaS, B2B infrastructure)
 - The brand is pre-product, pre-revenue, with no shoots planned
 
@@ -39,7 +39,7 @@ A placeholder section is still better than omission.
 
 Top-scoring documents define 3–6 named photo categories, each with a clear role. Examples:
 
-### Adobe (E019, 5/5) — three named tiers
+### Pattern A — three named tiers
 
 | Category | Role | Description |
 |----------|------|-------------|
@@ -47,15 +47,15 @@ Top-scoring documents define 3–6 named photo categories, each with a clear rol
 | Depersonalized | Product / context | Hands at work, objects in use, no identifying faces |
 | Personal | Story / human | Identifiable subjects, full face, named or quoted |
 
-### Nike Empower (E146, 5/5) — empowered creative network
+### Pattern B — an empowered creative network
 
 25% creator freedom / 75% brand cohesion model. Categories include hero campaign, social-content, athlete-led, community-led.
 
-### NOVEBA (D033, 4.5/5) — property-specific
+### Pattern C — subject-specific rules
 
 Categorized: building exteriors, interiors, environmental context, lifestyle context, with do's and don'ts per category.
 
-### Strava (E090, 5/5) — "imperfectly beautiful"
+### Pattern D — "imperfectly beautiful"
 
 Athlete-led, never-staged, real-conditions photography principle. Anti-glossy.
 
@@ -71,9 +71,9 @@ Athlete-led, never-staged, real-conditions photography principle. Anti-glossy.
 
 Open the section with a short philosophy statement (3–6 sentences) in the brand's voice. Examples:
 
-- **Strava**: "Imperfectly beautiful. Real athletes, real conditions, real moments. Never staged, never airbrushed."
-- **Vratna (D017)**: "Photography for Vratna captures the slow rhythm of mountain time. Long lenses, soft light, no rush. People are present but not posed."
-- **Adobe**: "Atmospheric, depersonalized, or personal — never decorative."
+- A fitness platform: "Imperfectly beautiful. Real athletes, real conditions, real moments. Never staged, never airbrushed."
+- A mountain resort: "Long lenses, soft light, no rush. People are present but not posed."
+- A creative-software brand: "Atmospheric, depersonalized, or personal — never decorative."
 
 The philosophy is the rule everything else hangs on.
 
@@ -117,7 +117,7 @@ If photography needs to feel cohesive across photographers, document the grade:
 - **Highlights / Shadows**: specific values
 - **LUT file**: provided in the asset bundle
 
-Vratna and NOVEBA both ship LUT recommendations. This is a competitive edge.
+Shipping an actual LUT file alongside the written direction is rare, and it is a competitive edge — it removes the interpretation step entirely.
 
 ## Subject and casting
 
@@ -129,7 +129,7 @@ For brands featuring people:
 - **Expression** — natural, candid, vs posed; range and permitted intensities
 - **Setting** — own venues vs studio vs found locations
 
-Strava's "Athletes, never users" language extends to casting: real athletes only, no models posing as athletes.
+A brand's vocabulary rules should extend into casting. If the brand calls its audience "athletes, never users," then it casts real athletes — not models posing as them.
 
 ## Stock photography — when allowed
 
@@ -140,7 +140,7 @@ Many brands rely on stock. Document the approval process:
 - **Approval workflow** — who signs off; turnaround time
 - **License tracking** — where licenses are stored
 
-Wave (E064) takes the unusual position of including Midjourney prompts as official asset creation methodology — early signal of AI-generated imagery normalizing for stock-replacement.
+A minority of guidelines now include generative-image prompts as an official asset-creation methodology — early signal of AI-generated imagery normalizing for stock-replacement.
 
 ## Don'ts — show, don't tell
 
@@ -192,13 +192,3 @@ A full photography library will be commissioned in [Q3 2026]. Until then,
 defer to typography and color as the primary brand expression in any
 photography-required moment.
 ```
-
-## Reference examples from the corpus
-
-- **E019 Adobe** (5/5) — Atmospheric / Depersonalized / Personal three-tier system
-- **E090 Strava** (5/5) — "Imperfectly beautiful"; athletes-not-users principle
-- **D017 Vratna** (5/5) — Mountain-time photography philosophy
-- **D033 NOVEBA** (4.5/5) — Property-specific photo do's and don'ts
-- **E146 Nike Empower** (5/5) — Empowered Creative Network 25/75 model
-- **E028 Discord** — Brand-led photo direction with strong personality
-- **E064 Wave** — Midjourney prompts as asset-creation methodology

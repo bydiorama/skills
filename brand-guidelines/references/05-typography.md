@@ -1,6 +1,6 @@
 # Section 3 — Typography
 
-Position 3 (87% consensus). Present in 92.8% of the corpus.
+Position 3 (87% consensus). Present in 92.8% of documents reviewed.
 
 Typography is where amateur guidelines are exposed. "Use Helvetica" is not typography. A type system specifies sizes, weights, leading, tracking, roles, and pairings — and ideally embodies the brand voice through its choice.
 
@@ -21,21 +21,19 @@ Typography is where amateur guidelines are exposed. "Use Helvetica" is not typog
 
 ## Typeface choice — three paths
 
-| Path | % of corpus | Example | When to use |
+| Path | Share | Example | When to use |
 |------|------------:|---------|-------------|
 | **Commercial / foundry** | ~55% | Inter, Söhne, GT America, Matter, Haffer | Default for most brands; license fits budget |
-| **Bespoke / custom** | ~25% | Cisco Sans, DS Indigo (Docusign), F1 family, Olympic Headline | Enterprise-scale, want true distinction |
+| **Bespoke / custom** | ~25% | A commissioned family, often named after the brand | Enterprise-scale, want true distinction |
 | **Open-source / system** | ~20% | Inter, IBM Plex, system stacks | Tight budget, technical brands, high accessibility |
 
-**Diorama-favored foundries** (Central European typography character):
-- Displaay (Prague) — appears in 5+ Diorama projects
-- Boutique foundries: Sans Plomb 98, Haffer, Matter
+**Look past the obvious foundries.** Independent and regional foundries carry character that the default choices do not, usually at a friendlier licence. Build a shortlist you actually know rather than reaching for the same three families on every project.
 
 When proposing a typeface, justify the choice in one sentence: what voice does it carry? what's it doing better than the obvious default?
 
 ## Hierarchy — the 5–7 levels sweet spot
 
-Per the corpus independent study: 6–7 levels is the sweet spot. Fewer than 5 → not enough distinction. More than 8 → impossible to remember.
+Per the per-section study: 6–7 levels is the sweet spot. Fewer than 5 → not enough distinction. More than 8 → impossible to remember.
 
 **Standard 7-level hierarchy:**
 
@@ -64,10 +62,10 @@ H2 / Headline
 ## Two scale strategies
 
 ### Linear scale (what most use)
-List explicit values per level, typically on a multiples-of-8 grid (NOVEBA D033 uses multiples-of-8). Easy to reason about; scales poorly across very different breakpoints.
+List explicit values per level, typically on a multiples-of-8 grid. Easy to reason about; scales poorly across very different breakpoints.
 
 ### Ratio-based scale
-Scale via mathematical ratio (1.25 minor third, 1.333 perfect fourth, 1.5 perfect fifth). Kia (E069, 5/5) uses percentage-based scaling: H 100% / 60% / 50% / 20%. Channel 4 uses formula-based leading.
+Scale via mathematical ratio (1.25 minor third, 1.333 perfect fourth, 1.5 perfect fifth). Some automotive systems use percentage-based scaling: H 100% / 60% / 50% / 20%. Others derive leading from size by formula rather than setting it per level.
 
 **Recommendation**: linear scale for Compact / Standard, ratio for Comprehensive.
 
@@ -103,16 +101,16 @@ If the brand operates in non-Latin markets, address:
 - Script-specific weights (Arabic typically reads heavier than Latin at the same weight)
 - RTL layout rules
 
-Top examples: IOC (E070, 5/5) — three bespoke typefaces by different designers across Olympic markets, with variable font tech. Kia (E069) — dual Latin/Korean system. HSBC (E082) — multilingual logos with custom small-usage Chinese sizes. Howden (E067) — Arabic, Thai, Hebrew script support.
+At the top end: three bespoke typefaces by different designers across global markets, with variable font tech. Common patterns: a dual Latin/CJK system; multilingual logos with custom small-usage sizes per script; and explicit Arabic, Thai and Hebrew support with their own vertical metrics.
 
 ## Special rules — the precision differentiator
 
 Top documents (5/5) include granular typographic rules. Examples worth modeling:
 
-- **Ogilvy Typography (E085, 5/5)** — wordspacing Min/Desired/Max; characters-per-line guidance; "gi" ligature prohibition (yes, that specific)
-- **NJ Transit (E065)** — legibility formula: 1" cap height per 50 feet of viewing distance
-- **Channel 4** — formula-based leading
-- **Ferrari (E029)** — bilingual hyphenation rules
+- **Typography-only manuals** — wordspacing Min/Desired/Max; characters-per-line guidance; named ligature prohibition (yes, that specific)
+- **Transit and wayfinding** — a legibility formula: 1" cap height per 50 feet of viewing distance
+- **Formula-based leading** — line-height derived from size by rule, not set per level
+- **Bilingual brands** — hyphenation and line-breaking rules per language
 
 Borrow patterns:
 - Numerals: lining vs old-style; tabular vs proportional
@@ -134,7 +132,7 @@ text-body-sm
 text-label-sm
 ```
 
-Marina Dorcol (D008) uses Family.Weight convention. This bridges the brand-guidelines-to-design-tokens gap (one of the five identified industry gaps).
+A `Family.Weight` convention bridges the brand-guidelines-to-design-tokens gap (one of the five identified industry gaps).
 
 ## Don'ts
 
@@ -161,17 +159,7 @@ Licensing failures are a real cost: Adobe Fonts vs. desktop license vs. web lice
 
 ## Anti-patterns
 
-- **Typeface named, no hierarchy.** "We use Inter." → useless. (BONET SLEEK D015 anti-pattern.)
+- **Typeface named, no hierarchy.** "We use Inter." → useless. Naming a font is not a type system.
 - **No weight specifications.** Designer guesses; consistency breaks.
 - **Different typefaces in print vs web** without explicit mapping.
 - **All-caps body text.** Reduces legibility; only for short emphasis.
-
-## Reference examples from the corpus
-
-- **E085 Ogilvy Typography** (5/5) — sole typography-only document in corpus; 38pp, gold standard
-- **E069 Kia** — 31° angles + percentage-based ratio system
-- **E108 Deutsche Bank** — Univers, International Typographic Style heritage
-- **E060 F1** — Bespoke 4-weight family, each weight assigned an emotional personality
-- **D033 NOVEBA** — Multiples-of-8 system, 12-column grid with exact margins/gutters
-- **E065 NJ Transit** — Cap-height-per-50-feet legibility formula
-- **E067 Howden** — 9pt modular type sizing

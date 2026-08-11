@@ -1,6 +1,6 @@
 # Phase 1: Brand Context Discovery
 
-The interview that must run BEFORE any document content is drafted. Generic guidelines are the #1 anti-pattern in the corpus. This phase gathers the inputs that turn templated content into a document grounded in the brand's actual reality.
+The interview that must run BEFORE any document content is drafted. Generic guidelines are the #1 anti-pattern. This phase gathers the inputs that turn templated content into a document grounded in the brand's actual reality.
 
 ## Operating principle
 
@@ -31,10 +31,10 @@ For each item, ask: "Do you already have this defined? If yes, share it. If no, 
 - **Purpose** — why the brand exists (philosophical "why")
 - **Vision** — aspirational future state
 - **Mission** — what they do, today, to get there
-- **Values** — 3–5 named values (sweet spot, per corpus data)
+- **Values** — 3–5 named values (sweet spot, per the research)
 - **Personality** — 4–6 adjectives, ideally with "X but not Y" anti-definitions
 - **Positioning statement / tagline** — distinctive promise vs competitors
-- **Archetype** — optional, only ~7% of corpus uses formal archetypes
+- **Archetype** — optional; only about 7% of documents reviewed use formal archetypes
 
 If the user has none of these defined: they need a brand strategy session before writing guidelines. Offer to either (a) defer the document, (b) draft a working strategy as a starting point and flag it as v0.1 for stakeholder review, or (c) build a visual-only document with strategy as a placeholder.
 
@@ -73,9 +73,9 @@ If the brand has NO existing assets: this is identity creation, not documentatio
 
 ### 6. Tone of the document itself
 
-The corpus shows documents written in the brand's own voice score 4.1/5 vs. 3.4 for neutral consultant-register. Ask:
+The research shows documents written in the brand's own voice score 4.1/5 vs. 3.4 for neutral consultant-register. Ask:
 
-> Should the guidelines themselves sound like the brand (e.g., IKEA's TOV doc sounds warm and chatty; Spotify's opens with "Hej hej"), or should they read as a neutral reference manual (e.g., NASA, Bell System)?
+> Should the guidelines themselves sound like the brand — warm and chatty, opening with a greeting in the brand's own voice — or read as a neutral reference manual, in the engineering-grade register of a classic corporate identity standard?
 
 Default to **brand voice for hybrid documents**, **neutral for compliance / partner / regulatory documents**.
 

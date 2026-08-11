@@ -1,6 +1,6 @@
 # Section 7 — Applications
 
-Position 7 (78% consensus). Present in 94.4% of the corpus.
+Position 7 (78% consensus). Present in 94.4% of documents reviewed.
 
 Applications is the synthesis section: where logo, color, typography, graphics, and photography come together in real-world contexts. Top-scoring documents include 15+ application types using REAL content, not lorem ipsum.
 
@@ -25,9 +25,9 @@ Applications is the synthesis section: where logo, color, typography, graphics, 
 | Standard | 8–12 | Above + letterhead, report cover, brochure, signage, swag |
 | Comprehensive | 15+ | Full-suite stationery + multi-channel digital + signage + packaging + vehicle + uniform |
 
-The corpus shows top-rated documents average 15+ application types. Applications prove the system works.
+The strongest documents cover 15+ application types. Applications are what prove the system actually works.
 
-## Most-common applications by frequency (corpus data)
+## Most-common applications by frequency
 
 | Rank | Application | % of docs |
 |-----:|-------------|----------:|
@@ -46,9 +46,9 @@ The corpus shows top-rated documents average 15+ application types. Applications
 
 This is the single biggest quality lever in the section. Top-scoring documents use:
 
-- **Vratna (D017, 5/5)** — actual menu prices, real staff names, specific vehicle models
-- **Strava (E090, 5/5)** — real athlete profiles, real ride data
-- **HSBC (E082, 5/5)** — real account types, real city names
+- A resort brand — actual menu prices, real staff names, specific vehicle models
+- A fitness platform — real athlete profiles and real activity data, never lorem
+- A global bank — real account types and real city names in every mockup
 
 Lorem ipsum reads as a placeholder document. Real content reads as a product. If the user can't supply content, MAKE realistic placeholder content (real-sounding names, plausible prices, believable copy) — not "Lorem ipsum dolor sit."
 
@@ -135,16 +135,6 @@ Pre-load these by industry context:
 
 ## Anti-patterns
 
-- **Applications-only document.** McDelivery (E114), Avast (E006) — strong logo rules, applications, nothing else. Scores 2–3/5.
+- **Applications-only document.** Strong logo rules, applications, nothing else. Usable but shallow — it tells people where the mark goes without telling them what the brand means.
 - **Aspirational mockups.** Showing applications the brand will never produce (Olympic-stadium-billboard for a SaaS startup). Embarrassing in audit.
 - **No source files.** Mockups without templates create a "looks great in PDF, never used in reality" gap.
-
-## Reference examples from the corpus
-
-- **D017 Vratna** (5/5) — Real menu prices, staff names, vehicles
-- **E082 HSBC** (5/5) — Every conceivable touchpoint, including watch and social app icons
-- **E090 Strava** (5/5) — API partnership guidelines + dedicated misuse section
-- **E060 F1** (5/5) — Vinyl + RAL specs alongside digital
-- **E070 IOC** (5/5) — Pictograms for all Olympic sports; field-of-play graphic devices
-- **E091 Hulu** — The Vessel device across multi-platform applications
-- **D025 Corvus Atrium** (4.5/5) — Nest-as-clock-dial travel time visualization
