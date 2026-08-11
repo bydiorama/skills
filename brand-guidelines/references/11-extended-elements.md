@@ -143,7 +143,7 @@ The bridge from "brand guidelines PDF" to "design tokens JSON" is the largest ef
 
 ## 6. Motion and animation
 
-Only ~10% of documents reviewed covers motion. Increasingly important for digital brands.
+Only about 10% of documents reviewed cover motion. Increasingly important for digital brands.
 
 ### Required content
 

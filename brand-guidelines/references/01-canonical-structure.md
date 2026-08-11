@@ -88,5 +88,5 @@ These do NOT get their own canonical section but should be threaded through:
 
 - Always include the Logo, Color, Typography, Applications quartet — these never get cut
 - Brand Strategy goes first even when thin (use `references/03-brand-strategy.md` to elicit content from the user)
-- TOV is the most-skipped section among documents reviewed (79.4% present); push the user to include it — its inclusion correlates with a +19% quality lift
+- TOV is the most-skipped canonical section (present in 79.4%); push the user to include it — its inclusion correlates with a +19% quality lift
 - Photography is the strongest quality differentiator (+53% delta between top and bottom-rated docs); push the user to commit to a photography direction even if the asset library doesn't yet exist

@@ -13,7 +13,7 @@ Including TOV is the second-largest quality differentiator after photography (+1
 | 3 | Personality traits / tension pairs | Always |
 | 4 | Worked examples (do/don't pairs) | Always — non-negotiable |
 | 5 | Vocabulary — words we use / avoid | Standard+ |
-| 6 | Channel-specific guidance | Comprehensive (industry gap — only 4% of documents reviewed) |
+| 6 | Channel-specific guidance | Comprehensive (industry gap — only 4% include it) |
 | 7 | Linguistic rules (caps, contractions, punctuation, numbers) | Standard+ |
 | 8 | Localization / multilingual | When applicable |
 

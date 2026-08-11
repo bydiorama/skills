@@ -34,7 +34,7 @@ For each item, ask: "Do you already have this defined? If yes, share it. If no, 
 - **Values** — 3–5 named values (sweet spot, per the research)
 - **Personality** — 4–6 adjectives, ideally with "X but not Y" anti-definitions
 - **Positioning statement / tagline** — distinctive promise vs competitors
-- **Archetype** — optional, only ~7% of documents reviewed uses formal archetypes
+- **Archetype** — optional; only about 7% of documents reviewed use formal archetypes
 
 If the user has none of these defined: they need a brand strategy session before writing guidelines. Offer to either (a) defer the document, (b) draft a working strategy as a starting point and flag it as v0.1 for stakeholder review, or (c) build a visual-only document with strategy as a placeholder.
 

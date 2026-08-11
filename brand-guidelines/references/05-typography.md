@@ -21,7 +21,7 @@ Typography is where amateur guidelines are exposed. "Use Helvetica" is not typog
 
 ## Typeface choice — three paths
 
-| Path | % of documents reviewed | Example | When to use |
+| Path | Share | Example | When to use |
 |------|------------:|---------|-------------|
 | **Commercial / foundry** | ~55% | Inter, Söhne, GT America, Matter, Haffer | Default for most brands; license fits budget |
 | **Bespoke / custom** | ~25% | A commissioned family, often named after the brand | Enterprise-scale, want true distinction |

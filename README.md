@@ -78,6 +78,11 @@ and Pearson's *The Hero and the Outlaw*; the skill does not ship the text or the
 If you use these skills on client work, the same discipline applies: name a framework,
 don't copy it, and don't paste another agency's writing into your own.
 
+**Trademarks.** "Diorama" and the Diorama logo are trademarks of the copyright holder. The
+MIT licence covers the contents of this repository; it does not grant permission to use the
+Diorama name or marks to identify derivative works. Fork freely — just ship it under your
+own name.
+
 ## Contributing
 
 Issues and pull requests welcome. If you are adding a skill, keep `SKILL.md` under ~200

@@ -48,7 +48,7 @@ Don't omit the section entirely.
 
 ## Platinum Standard scorecard
 
-For a document to score 4.5+ / 5.0 (top tier of documents reviewed), it should hit the following thresholds. Score each on 1–5; aim for ≥4 across the board.
+For a document to score 4.5+ / 5.0 (the top tier), it should hit the following thresholds. Score each on 1–5; aim for ≥4 across the board.
 
 | Dimension | Threshold for 5/5 | Self-score 1–5 |
 |-----------|-------------------|--------------:|
@@ -83,7 +83,7 @@ For Comprehensive tier projects, also verify:
 | AI usage policy | Recommended | __ |
 | Sustainability / materials policy | If ESG-relevant | __ |
 
-Including 4+ extended elements places the document ahead of 90% of documents reviewed.
+Including 4+ extended elements places the document ahead of 90% of the field.
 
 ## Spot-check anti-patterns
 

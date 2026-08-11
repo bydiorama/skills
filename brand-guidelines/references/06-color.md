@@ -1,6 +1,6 @@
 # Section 4 — Color
 
-Position 4 (85% consensus). The MOST UNIVERSAL section among documents reviewed — present in 97.8% of documents, ahead of even logo (95%). Only four documents across everything reviewed omit color, and all are narrowly scoped supplements.
+Position 4 (85% consensus). The MOST UNIVERSAL section of all — present in 97.8% of documents reviewed, ahead of even logo (95%). Only four omitted colour entirely, and all four were narrowly scoped supplements.
 
 Colour is also the cheapest place to out-specify the field: the best documents carry roughly 4 specification formats per colour against an industry average nearer 3. Adding one more format is a day's work and it shows.
 
@@ -97,7 +97,7 @@ Rule of thumb: if a brand has 6+ colors, NOT all combinations are approved. Docu
 
 ## Accessibility — the competitive edge
 
-92% of documents reviewed does not address accessibility. Including it puts you ahead of nearly all competition.
+92% of documents reviewed do not address accessibility. Including it puts you ahead of nearly all competition.
 
 Document for every text/background combination:
 
@@ -155,7 +155,7 @@ Distinguish RAG data colors (red/amber/green for status) from brand colors (the 
 
 ## Dark mode — the second industry gap
 
-~90% of documents reviewed does not address dark mode. Add it as a default for any digital brand.
+About 90% of documents reviewed do not address dark mode. Add it as a default for any digital brand.
 
 Approach:
 1. Define dark-mode equivalents for each light-mode token

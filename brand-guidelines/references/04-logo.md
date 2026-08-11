@@ -11,7 +11,7 @@ The logo section is where most designers feel comfortable, which means the bar i
 | 1 | Primary logo | Always |
 | 2 | Logo variants (3–5 typical, 6+ for comprehensive) | Always |
 | 3 | Construction / anatomy | Standard+ |
-| 4 | Clear space (exclusion zone) | 59% of documents reviewed; should be 100% |
+| 4 | Clear space (exclusion zone) | 59% include it; should be 100% |
 | 5 | Minimum size (mm + px) | Always |
 | 6 | Color variants (positive, reversed, monochrome) | Always |
 | 7 | Background usage matrix | Standard+ |
