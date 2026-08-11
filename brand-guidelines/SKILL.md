@@ -101,6 +101,4 @@ If the user wants a Figma-ready or InDesign-ready output, produce the Markdown c
 
 ## Related skills
 
-- `brand-strategy` — produce the strategic foundation Phase 1 depends on
-- `brand-guidelines-site` — render the system as a web page instead of a document
 - `anti-skill` — run the finished document through an adversarial review
