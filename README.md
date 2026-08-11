@@ -5,7 +5,9 @@ work a brand studio actually does: strategy, positioning, guidelines, and the cr
 review that should happen before any of it ships.
 
 These were built and used on real engagements, then rewritten to be brand-agnostic so
-anyone can run them. Seven skills, no dependencies beyond Python's standard library.
+anyone can run them. Eight skills, no dependencies beyond Python's standard library
+(one skill additionally uses the public `griddy-icons` npm package and the Paper MCP
+server, both optional and both noted in that skill).
 
 ## The skills
 
@@ -18,9 +20,12 @@ anyone can run them. Seven skills, no dependencies beyond Python's standard libr
 | **[brand-strategy](brand-strategy/)** | Turns workshops, interviews and category research into positioning, personality, archetypes, CEPs and a messaging framework. | Starting a brand from inputs rather than a blank page |
 | **[brand-guidelines-site](brand-guidelines-site/)** | Extracts a brand system from a live site, a Figma file, or a codebase's tokens and renders it as a web page styled *in* the brand. | The guidelines should be a page, not a PDF |
 | **[case-study-writer](case-study-writer/)** | Turns project materials into a publishable case study with a specified voice and mandatory fact-checking. | Writing up finished work for a website |
+| **[griddy-icons-in-paper](griddy-icons-in-paper/)** | Extracts real glyphs from the `griddy-icons` package into a [Paper](https://paper.design) artboard, with the layer-naming and trademark rules that make a handoff hold. | An icon in a design has to be the one that ships |
 
-They compose. A typical sequence: `b2b-sos-analysis` → `b2b-icp` → `brand-strategy` →
-`brand-guidelines` → `brand-guidelines-site`, with `anti-skill` run against each output.
+The first seven compose. A typical sequence: `b2b-sos-analysis` → `b2b-icp` →
+`brand-strategy` → `brand-guidelines` → `brand-guidelines-site`, with `anti-skill` run
+against each output. `griddy-icons-in-paper` is a standalone production skill for the
+design side of the work.
 
 ## Install
 
@@ -35,7 +40,7 @@ Use `~/.claude/skills/` for personal use, or a project's `.claude/skills/` to sh
 with a repo. Claude loads each skill's `SKILL.md` and pulls the `references/` and
 `resources/` files on demand.
 
-Each skill is a self-contained directory — take one, take all seven, nothing depends on
+Each skill is a self-contained directory — take one, take all eight, nothing depends on
 anything outside its own folder.
 
 ## Which one to start with
