@@ -1,32 +1,30 @@
 # Writing the Document Itself
 
-The guidelines document is also a brand artifact. Documents written in the brand's own voice score 4.1/5 vs 3.4/5 for neutral consultant-register — a meaningful gap.
+The guidelines document is also a brand artifact. Its writing should deliberately use either the brand's own voice or a neutral reference register based on audience and purpose.
 
 This reference governs **how the document itself sounds**, not the brand it documents.
 
 ## Three writing modes
 
-Drawn from analysis of all ~180 documents reviewed.
+| Mode | Use when |
+|------|----------|
+| Hybrid (narrative + spec) | The reader needs both strategic context and production rules |
+| Instructional / Technical | The document serves compliance, partners, or implementation teams |
+| Inspirational / Narrative | The document is principles-led and detailed specifications live elsewhere |
 
-| Mode | Count | % | Avg. quality |
-|------|------:|------:|-------:|
-| Hybrid (narrative + spec) | 92 | 51% | 3.9 |
-| Instructional / Technical | 55 | 31% | 3.4 |
-| Inspirational / Narrative | 33 | 18% | 3.2 |
+**Default to hybrid.** Open sections with narrative context explaining purpose, then transition to precise specifications. Answer both "why" and "how."
 
-**Hybrid wins.** It opens sections with narrative context explaining purpose, then transitions to precise specifications. Both "why" and "how" are answered.
-
-Pure instructional works for partner / compliance / engineering-grade documents — the register of a classic corporate identity standard or a rail-infrastructure manual. Pure inspirational works only for principles-led books with thin specifications, and consistently scores lowest.
+Pure instructional writing works for partner, compliance, or engineering-grade documents. Pure inspirational writing works only for principles-led books whose detailed specifications live elsewhere.
 
 **Default to hybrid unless the brief specifies otherwise.**
 
 ## Voice — neutral or brand?
 
-| Mode | Count | % | Use when |
-|------|------:|------:|---------|
-| Neutral / consultant register | 103 | 57% | Compliance, partner, regulated, multi-stakeholder, very large enterprise |
-| Brand voice (the doc sounds like the brand) | 46 | 26% | Default for hybrid documents — scores 4.1/5 |
-| Minimal text | 31 | 17% | Pure spec / visual reference |
+| Mode | Use when |
+|------|----------|
+| Neutral / consultant register | Compliance, partner, regulated, multi-stakeholder, or large-enterprise use |
+| Brand voice (the doc sounds like the brand) | Default for hybrid documents and brand-facing audiences |
+| Minimal text | Pure specification or visual reference |
 
 **Defaults**:
 - Internal team / agency-led / consumer brands → **brand voice**
@@ -48,15 +46,9 @@ Concrete moves:
 
 ## Phrasing rules
 
-### "Do" phrasings outperform "Don't" phrasings
+### Pair "Do" with "Don't"
 
-| Phrasing | Quality lift |
-|----------|-------------|
-| Do + Don't paired | 3.8 / 5 |
-| Do only | 3.1 / 5 |
-| Don't only | 2.5 / 5 |
-
-Translate: lead with the affirmative, then show the negative for clarity. Never publish a section that has only "don'ts."
+Lead with the affirmative treatment, then show the negative treatment for contrast. Never publish a section that contains only "don'ts."
 
 ### Soft vs hard rules
 
@@ -68,15 +60,14 @@ The strictness of language should scale with the risk of the element:
 | Typography hierarchy, application templates | Use / Avoid / Standard is / Default to |
 | Photography style, voice | Prefer / Lean toward / In most cases / Generally |
 
-A 1970 corporate identity standard: "Under no circumstances is the symbol to be redrawn."
-Origameo: "Contractions preferred."
+Examples: "Under no circumstances is the symbol to be redrawn." "Contractions preferred."
 A modern design lab: "Principles rather than hard rules."
 
 Match the strictness to the stakes.
 
 ### "Things to Avoid" reframe
 
-Several modern documents replace "Don't" with softer alternatives:
+When appropriate for the brand voice, replace "Don't" with softer alternatives:
 
 - "Things to Avoid"
 - "Avoidances" (e.g. "No mascot puns; no 'shoot/shot' language")
@@ -95,7 +86,7 @@ Each canonical section should open with 1–2 paragraphs of narrative context. U
 > "Our logo is the most concentrated expression of who we are. These rules protect that concentration. Following them keeps the mark powerful at any scale, in any context."
 
 ### Typography
-> "Type carries 90% of what people read about us. Get the typography right and the brand reads as serious; get it wrong and nothing else holds up."
+> "Type carries most of what people read about us. Get the typography right and the brand reads as serious; get it wrong and nothing else holds up."
 
 ### Color
 > "Colors carry feeling before words do. Our palette is the emotional infrastructure of the brand. These specifications make sure the feeling lands the same on screen, in print, and across every supplier."
@@ -122,7 +113,7 @@ Adapt these to brand cadence — they're scaffolding, not template.
 - **Caption sizing**: distinct from body, smaller, often in muted color
 - **Asset references**: every spec links to its file/repo
 - **Quotation / pull quotes**: for impactful brand statements
-- **Whitespace**: top-tier docs use generous whitespace; cramped layouts read as cheap
+- **Whitespace**: use generous whitespace; avoid cramped layouts
 
 ## File / publishing
 

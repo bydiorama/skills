@@ -1,8 +1,6 @@
 # Section 4 — Color
 
-Position 4 (85% consensus). The MOST UNIVERSAL section of all — present in 97.8% of documents reviewed, ahead of even logo (95%). Only four omitted colour entirely, and all four were narrowly scoped supplements.
-
-Colour is also the cheapest place to out-specify the field: the best documents carry roughly 4 specification formats per colour against an industry average nearer 3. Adding one more format is a day's work and it shows.
+Place color after typography and specify every approved color in the formats required by the brand's production contexts.
 
 ## Required subsections
 
@@ -14,22 +12,14 @@ Colour is also the cheapest place to out-specify the field: the best documents c
 | 4 | Tints and shades scale | Standard+ |
 | 5 | Functional / semantic colors (success, warning, error) | When digital product |
 | 6 | Color pairings / adjacency rules | Standard+ |
-| 7 | Accessibility / contrast ratios | Always (industry gap — competitive edge) |
+| 7 | Accessibility / contrast ratios | Always |
 | 8 | Naming convention | Standard+ |
-| 9 | Backgrounds / dark mode | Comprehensive (industry gap) |
+| 9 | Backgrounds / dark mode | Comprehensive or digital product |
 | 10 | Don'ts | Always |
 
-## Multi-format specifications — the four-minimum
+## Multi-format specifications
 
-The research shows a sharp quality cliff at the 4-format threshold:
-
-| Formats provided | Avg. quality score |
-|------------------|-------------------:|
-| HEX only | 2.5 / 5 |
-| HEX + RGB | 3.0 / 5 |
-| HEX + RGB + CMYK | 3.5 / 5 |
-| **HEX + RGB + CMYK + Pantone** | **3.8 / 5** |
-| + RAL / industry-specific | 4.2 / 5 |
+Provide the formats required for screen, print, production, and implementation. For most brands, include at least Pantone, CMYK, RGB, and HEX.
 
 **Always provide at minimum:** Pantone (Coated AND Uncoated), CMYK, RGB, HEX.
 
@@ -39,7 +29,7 @@ Add when relevant:
 - **HSL** — for design-system flexibility
 - **NCS** — Nordic / public sector
 
-The benchmark for an infrastructure brand is 8 systems: RAL, NCS, Pantone, CMYK, RGB, HEX, HSL and vinyl film.
+For an infrastructure brand, consider RAL, NCS, Pantone, CMYK, RGB, HEX, HSL, and vinyl-film specifications.
 
 ### Format example
 
@@ -59,14 +49,14 @@ Brand Primary — "Voltage"
   WCAG vs black:     4.1 : 1 (AA Large only)
 ```
 
-## Palette size — the 4–6 sweet spot
+## Palette size
 
-Independent study finding: 4–6 colors is optimal.
+Use four to six colors as a practical starting point, then adjust to the brand's actual needs.
 
 | Palette size | Typical use |
 |-------------:|-------------|
 | 1–3 | Minimalist brands and high-discipline institutional systems |
-| **4–6** | **Sweet spot** — primary + secondary + 2–3 accents |
+| **4–6** | Primary + secondary + 2–3 accents |
 | 7–10 | Rich systems with categorical use (e.g. an 8-colour set where each colour codes a category) |
 | 27+ | Rare; usually flat-palette brands, and only workable with an accessibility pairing matrix |
 
@@ -95,9 +85,7 @@ Document which colors play well together. Two formats:
 
 Rule of thumb: if a brand has 6+ colors, NOT all combinations are approved. Document only the sanctioned pairs.
 
-## Accessibility — the competitive edge
-
-92% of documents reviewed do not address accessibility. Including it puts you ahead of nearly all competition.
+## Accessibility
 
 Document for every text/background combination:
 
@@ -107,7 +95,7 @@ Document for every text/background combination:
 
 Tools: webaim.org/resources/contrastchecker, Stark Contrast Checker, Colour Contrast Analyser.
 
-What the strongest documents do:
+Apply these practices:
 - Thread accessibility through every colour page rather than isolating it in one section
 - Document the contrast ratio for every approved pairing, not just the primary
 - For large palettes, ship a full pairing matrix marking which combinations pass
@@ -115,7 +103,7 @@ What the strongest documents do:
 
 ## Naming — beyond HEX strings
 
-Top-scoring documents give colors memorable names tied to the brand strategy:
+Give colors memorable names tied to the brand strategy when that helps teams discuss and apply them:
 
 | Brand | Naming approach | Examples |
 |-------|----------------|----------|
@@ -151,11 +139,11 @@ If the brand has any digital product:
 - **Info** — blue family
 - **Neutral / Surface** — gray scale (5–9 stops)
 
-Distinguish RAG data colors (red/amber/green for status) from brand colors (the best systems separate these explicitly — copy the pattern).
+Distinguish RAG data colors (red/amber/green for status) from brand colors.
 
-## Dark mode — the second industry gap
+## Dark mode
 
-About 90% of documents reviewed do not address dark mode. Add it as a default for any digital brand.
+Add dark-mode guidance for any digital brand that supports or expects dark interfaces.
 
 Approach:
 1. Define dark-mode equivalents for each light-mode token
@@ -187,7 +175,7 @@ Show the palette applied in 3–5 real settings:
 
 ## Anti-patterns
 
-- **"Use our blue."** — Vague; appears in 2/5 docs.
+- **"Use our blue."** — vague and not production-ready.
 - **Color value errors.** Many documents have specification mismatches (Pantone says one thing, HEX says another). Cross-validate.
 - **No tints/shades.** Designers will improvise; results are inconsistent.
 - **Colors that fail their own contrast claims.** Validate before publishing.

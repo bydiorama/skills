@@ -1,13 +1,13 @@
 # Phase 5: Quality Checklist
 
-Run this before delivering the document. The checklist is calibrated to the **Platinum Standard** (synthesizing patterns from the 27 documents scoring 5/5 in the ~180 documents reviewed) and screens for the **Fatal Five** omissions that mark low-scoring documents.
+Run this checklist before delivering the document. It screens for five critical omissions and verifies that the system is complete, usable, and ready for handoff.
 
-## The Fatal Five — non-negotiable screens
+## Five critical omissions
 
 If ANY of these are present in the document as currently drafted, flag and fix before delivery:
 
 ### 1. No brand strategy section
-Documents without strategy average 3.0/5. Verify Section 1 (Brand Strategy) contains at minimum:
+Verify Section 1 (Brand Strategy) contains at minimum:
 - A statement of purpose / mission
 - 3–5 named values OR personality traits
 - A 1-line positioning / tagline
@@ -15,7 +15,7 @@ Documents without strategy average 3.0/5. Verify Section 1 (Brand Strategy) cont
 If the user has no strategy and won't develop it now, ship a clearly-marked "v0.1 — strategy pending" placeholder, not a missing section.
 
 ### 2. No tone of voice
-Even visually strong documents lose ~1 point without TOV. Verify Section 8 contains at minimum:
+Verify Section 8 (Tone of Voice) contains at minimum:
 - Voice description (who we sound like) — 3–5 traits with anti-definitions
 - 6+ Do/Don't worked examples
 - A short vocabulary list (words used / words avoided)
@@ -23,7 +23,7 @@ Even visually strong documents lose ~1 point without TOV. Verify Section 8 conta
 If the brand has no voice yet, draft a starter framework (see `references/10-tone-of-voice.md` "When the brand has no voice yet").
 
 ### 3. Missing color specifications (HEX-only)
-HEX-only color average is 2.5/5. Verify EVERY color has at minimum:
+Verify every color has the formats required for both print and screen, including at minimum:
 - Pantone Coated AND Pantone Uncoated
 - CMYK
 - RGB
@@ -32,7 +32,7 @@ HEX-only color average is 2.5/5. Verify EVERY color has at minimum:
 For environmental / signage / industrial brands, add RAL. Cross-validate that values agree (no Pantone-vs-HEX mismatches).
 
 ### 4. No misuse / don'ts
-Documents without don'ts average 2.5/5; with paired do/don't pairs, 3.8/5. Verify the document includes don'ts for:
+Verify the document includes paired Do/Don't guidance for:
 - Logo (minimum 6 misuse examples)
 - Color (at least 1 anti-pattern)
 - Typography (at least 1 anti-pattern)
@@ -40,18 +40,18 @@ Documents without don'ts average 2.5/5; with paired do/don't pairs, 3.8/5. Verif
 - TOV (at least 6 do/don't worked examples)
 
 ### 5. No photography direction
-The single largest quality differentiator (+53% delta). Verify Section 6 either:
+Verify Section 6 either:
 - Contains substantive direction (philosophy + mood + named categories + don'ts), OR
 - Contains a clearly-marked "Photography direction in development for v2.0" placeholder with intent statement
 
 Don't omit the section entirely.
 
-## Platinum Standard scorecard
+## Quality scorecard
 
-For a document to score 4.5+ / 5.0 (the top tier), it should hit the following thresholds. Score each on 1–5; aim for ≥4 across the board.
+Score each dimension from 1–5 and resolve any item below 4 before delivery.
 
-| Dimension | Threshold for 5/5 | Self-score 1–5 |
-|-----------|-------------------|--------------:|
+| Dimension | Completion threshold | Self-score 1–5 |
+|-----------|----------------------|--------------:|
 | Page count appropriate to scope | Compact 20–30 / Standard 30–50 / Comprehensive 60–90 | __ |
 | All 8 sections present (or placeholder) | Yes | __ |
 | Strategy section opens (position 1) | Yes | __ |
@@ -83,7 +83,7 @@ For Comprehensive tier projects, also verify:
 | AI usage policy | Recommended | __ |
 | Sustainability / materials policy | If ESG-relevant | __ |
 
-Including 4+ extended elements places the document ahead of 90% of the field.
+Include every extended element relevant to the brand's products, markets, and operations.
 
 ## Spot-check anti-patterns
 
@@ -157,7 +157,7 @@ Before delivering to the user:
 - [ ] Document name + version + date on cover
 - [ ] Table of contents (if 30+ pages)
 - [ ] All sections present in canonical order
-- [ ] No Fatal Five omission unaddressed
+- [ ] No critical omission unaddressed
 - [ ] Industry-specific extras included where relevant
 - [ ] Voice of document matches brand (or deliberately neutral)
 - [ ] File size under 50 MB
@@ -194,7 +194,7 @@ Open items:
   - [Anything pending — e.g. "photography direction to be added in v2.0 once shoot complete"]
   - [Any user decisions still needed]
 
-Quality assessment: estimated [N]/5 against the Platinum Standard.
+Quality assessment: [ready / ready with noted open items / revision required].
 
 Next steps:
   - Review the document with [stakeholder list]

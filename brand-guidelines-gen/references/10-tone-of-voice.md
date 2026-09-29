@@ -1,8 +1,6 @@
 # Section 8 — Tone of Voice
 
-Position 8 (100% consensus when present). Present in 79.4% of documents reviewed — the most-skipped of the canonical sections.
-
-Including TOV is the second-largest quality differentiator after photography (+19% delta between top and bottom-rated documents). It is also the area where the most sophisticated frameworks have emerged in recent years — a discipline rapidly maturing from afterthought to strategic asset.
+Place Tone of Voice last. Use it to translate brand strategy into repeatable writing decisions across contexts and channels.
 
 ## Required subsections
 
@@ -13,7 +11,7 @@ Including TOV is the second-largest quality differentiator after photography (+1
 | 3 | Personality traits / tension pairs | Always |
 | 4 | Worked examples (do/don't pairs) | Always — non-negotiable |
 | 5 | Vocabulary — words we use / avoid | Standard+ |
-| 6 | Channel-specific guidance | Comprehensive (industry gap — only 4% include it) |
+| 6 | Channel-specific guidance | Comprehensive or multi-channel brand |
 | 7 | Linguistic rules (caps, contractions, punctuation, numbers) | Standard+ |
 | 8 | Localization / multilingual | When applicable |
 
@@ -28,7 +26,7 @@ Document both. Many guidelines conflate them and end up with neither.
 
 Pick ONE primary framework. Mixing creates confusion.
 
-### 1. Personality traits (most common)
+### 1. Personality traits
 
 3–5 named adjectives, ideally with anti-definitions.
 
@@ -74,11 +72,7 @@ Tone calibrated to the user's emotional state at each step of the journey.
 
 ## Worked examples — Do/Don't is non-negotiable
 
-The research is unambiguous here:
-
-- Documents with **Do/Don't pairs** average 3.8/5
-- Documents with **Don'ts only** average 2.5/5
-- Documents with **Do only** average 3.1/5
+Use paired Do/Don't examples so writers can compare an on-brand treatment with an off-brand one.
 
 Show side-by-side examples for at least 6 common writing situations:
 
@@ -128,7 +122,7 @@ The most granular example encountered: a typography manual that prohibits one sp
 
 ## Channel-specific tone
 
-Very few guidelines address this — a major industry gap, and therefore a cheap competitive edge.
+Map tone to channel whenever the brand publishes across contexts with different audience expectations.
 
 Map tone to channel:
 
@@ -154,11 +148,9 @@ If the brand operates across languages:
 - **Local idiom** — allowed? forbidden? case-by-case
 - **Approval workflow** — who signs off on local copy
 
-Most guidelines miss this entirely.
-
 ## The document's own voice
 
-The strongest TOV sections are written IN the brand's voice, not about it.
+Write the Tone of Voice section in the brand's voice, not merely about it.
 
 Patterns worth stealing:
 
@@ -194,4 +186,4 @@ Default opening framework to propose to the user:
 5. A channel matrix — only the 3 channels they actually publish on
 ```
 
-This is enough to score 4.0+ on TOV alone. Skip nothing on this list.
+Treat every item on this list as required for the Compact fallback.

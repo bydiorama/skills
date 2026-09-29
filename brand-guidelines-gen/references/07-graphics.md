@@ -1,8 +1,6 @@
 # Section 5 — Graphics
 
-Position 5 (76% consensus). Present in 90% of documents reviewed. Encompasses iconography, patterns, illustrations, graphic devices, and named brand elements.
-
-The single strongest indicator of a 5/5 quality score is the presence of a **generative graphic system** — a visual system that generates variety from fixed rules. This is where exceptional brands separate from competent ones.
+Place graphics after color. Cover iconography, patterns, illustrations, graphic devices, and named brand elements. Prefer systems that can generate variety from consistent rules.
 
 ## Required subsections
 
@@ -19,9 +17,9 @@ The single strongest indicator of a 5/5 quality score is the presence of a **gen
 
 ## The four graphic strategies
 
-The research reveals four distinct approaches. Pick one (or one primary + one supporting):
+Pick one primary approach, with one supporting approach when needed:
 
-### 1. Named device (most common for top-scoring docs)
+### 1. Named device
 
 A single proprietary visual element with a name and rule set.
 
@@ -39,7 +37,7 @@ A single proprietary visual element with a name and rule set.
 
 ### 2. Generative system
 
-Rules that produce infinite variants. Strongest predictor of 5/5 score.
+Rules that produce many coherent variants from a defined set of inputs.
 
 | Sector | System | How it works |
 |--------|--------|--------------|
@@ -92,7 +90,7 @@ Even brands without a "graphic system" usually have icons. Document:
 - **File format** — SVG masters, PNG exports per size
 - **License** — bespoke / Phosphor / Heroicons / Lucide / Material — specify
 
-A strong benchmark: a mountain resort shipping 40 custom pictograms tied tightly to its actual offering, rather than a generic stock set.
+Prefer a custom pictogram set tied to the brand's actual offering over a generic stock set when budget and scope allow.
 
 ## Construction rules
 

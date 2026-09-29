@@ -1,10 +1,6 @@
 # Section 6 — Photography
 
-Position 6 (70% consensus). Present in 77.2% of documents reviewed.
-
-**The single strongest quality differentiator across everything reviewed.** Documents WITH dedicated photography sections average 4.0/5; without, 3.0/5. Among 5/5 documents, 97% include photography; among 2/5 documents, only 44% — a +53 percentage-point delta, the largest gap of any section.
-
-Including photography direction signals a mature, investment-grade brand system.
+Place photography after graphics. Define enough direction to keep imagery coherent across subjects, creators, channels, and time.
 
 ## Required subsections
 
@@ -37,7 +33,7 @@ A placeholder section is still better than omission.
 
 ## The named-categories approach
 
-Top-scoring documents define 3–6 named photo categories, each with a clear role. Examples:
+Define 3–6 named photo categories, each with a clear role. Examples:
 
 ### Pattern A — three named tiers
 
@@ -117,7 +113,7 @@ If photography needs to feel cohesive across photographers, document the grade:
 - **Highlights / Shadows**: specific values
 - **LUT file**: provided in the asset bundle
 
-Shipping an actual LUT file alongside the written direction is rare, and it is a competitive edge — it removes the interpretation step entirely.
+Ship an actual LUT file alongside the written direction when repeatable color grading matters.
 
 ## Subject and casting
 
@@ -140,7 +136,7 @@ Many brands rely on stock. Document the approval process:
 - **Approval workflow** — who signs off; turnaround time
 - **License tracking** — where licenses are stored
 
-A minority of guidelines now include generative-image prompts as an official asset-creation methodology — early signal of AI-generated imagery normalizing for stock-replacement.
+If generative imagery is allowed, document approved use cases, prompts, review criteria, disclosure requirements, and prohibited representations.
 
 ## Don'ts — show, don't tell
 
@@ -170,7 +166,7 @@ For brands that will shoot regularly:
 
 - **Mood board only.** A pinboard of nice photos is not direction.
 - **Photography "vibe" without specs.** "Editorial" means nothing without composition rules.
-- **No don'ts.** The most common failure mode for photo sections.
+- **No don'ts.** Show what falls outside the approved photography direction.
 - **No real-world examples.** Show images that exist, not impossible compositions.
 - **Different rules per channel** without a unifying principle.
 

@@ -1,8 +1,6 @@
 # Section 1 — Brand Strategy
 
-The single strongest predictor of guideline quality. Documents WITH formal strategy average 4.1/5; those without average 3.0/5 — a 1.1-point gap, the largest correlation in the entire ~180 documents reviewed.
-
-Position 1 (96% consensus). Always opens the document.
+Brand strategy gives the rest of the guidelines a decision-making foundation. Always open the document with this section.
 
 ## Companion skill
 
@@ -12,18 +10,18 @@ This reference is for **documenting** strategy in the guidelines, not developing
 
 ## Required subsections
 
-| Element | Frequency observed | Required? |
-|---------|--------------------:|-----------|
-| Positioning / tagline | 62% | Always — at minimum |
-| Brand personality | 38% | Standard tier and above |
-| Values | 33% | Standard tier and above |
-| Mission | 28% | When defined |
-| Vision | 21% | When defined |
-| Purpose | 17% | When defined (philosophical "why") |
-| Target audience | 18% | Comprehensive tier |
-| Brand pillars / principles | 15% | Optional |
-| Brand architecture | 14% | When multi-brand |
-| Archetypes | 7% | Rare; only if strategically defined |
+| Element | Required? |
+|---------|-----------|
+| Positioning / tagline | Always — at minimum |
+| Brand personality | Standard tier and above |
+| Values | Standard tier and above |
+| Mission | When defined |
+| Vision | When defined |
+| Purpose | When defined (philosophical "why") |
+| Target audience | Comprehensive tier |
+| Brand pillars / principles | Optional |
+| Brand architecture | When multi-brand |
+| Archetypes | Only if strategically defined |
 
 ## Default cascade
 
@@ -45,16 +43,14 @@ You can shorten this to {Mission, Values, Personality, Positioning} for Compact 
 
 ## How many of each
 
-Drawn from the observed distributions:
-
 | Element | Sweet spot | Examples |
 |---------|-----------|----------|
-| Values | **3–5** (3 most common at 35%, 4 at 30%) | e.g. Excellence / Respect / Friendship, or Innovative / Independent / Irreverent |
+| Values | **3–5** | e.g. Excellence / Respect / Friendship, or Innovative / Independent / Irreverent |
 | Personality traits | **4–6** with anti-definitions | "Confident but not arrogant"; "Warm but not soft"; "Sharp but not clinical" |
 | Pillars | 3–5 if used | Three personality tenets, or a modular "brand palette" framework |
 | Archetypes | 1 primary + up to 2 secondary | e.g. Caregiver primary, Creator secondary, Sage tertiary |
 
-**Avoid 7+ values.** Documents with 7+ "values" are usually mixing values with principles, pillars, or design tenets. Force the user to consolidate.
+**Avoid 7+ values.** Check whether the list mixes values with principles, pillars, or design tenets, and ask the user to consolidate it.
 
 ## Format on the page
 
@@ -81,7 +77,7 @@ In practice: when in doubt, choose the slower option.
 
 ## Personality with "X but not Y"
 
-The strongest personality articulations use anti-definitions because they force precision. Examples worth modeling:
+Use anti-definitions to make personality traits precise. Examples:
 
 - "Confident but not arrogant"
 - "Modern but not trendy"
@@ -94,7 +90,7 @@ Avoid generic: "innovative, dynamic, customer-focused" — every brand claims th
 
 ## Tagline / positioning line — minimum bar
 
-If the brand resists everything else, get them to commit to ONE LINE that captures the distinctive promise. The research shows 62% of documents have at least a positioning line, often when nothing else strategic is documented.
+If the brand resists everything else, get them to commit to one line that captures the distinctive promise.
 
 Test the line:
 - Does it work as the first thing a stranger reads about the brand?
@@ -112,7 +108,7 @@ For B2B: pair with the existing `b2b-icp` skill if the user wants formal persona
 
 ## Document the strategic context, not the slogans
 
-The most common failure mode is documenting strategy as polished marketing copy. The point of strategy in guidelines is **decision-making leverage** — when a designer or copywriter has to make a judgment call (which font weight? which photo? which adjective?), they should be able to look at the strategy section and find the answer.
+Do not reduce strategy to polished marketing copy. Strategy in guidelines must provide **decision-making leverage**: when a designer or copywriter has to make a judgment call, they should be able to use this section to settle it.
 
 **Test**: for each strategy element written, ask "could a designer use this to settle a debate at 11pm?" If no, rewrite for actionability.
 

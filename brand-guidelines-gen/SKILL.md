@@ -1,17 +1,16 @@
 ---
-name: brand-guidelines
-description: Create comprehensive brand guidelines documents (also called brand books, brand manuals, design manuals, visual identity guides, corporate identity standards, or brand style guides). Use this skill whenever the user asks to build, write, draft, structure, or update brand guidelines — whether starting from a brand brief, an existing visual identity, a strategy session output, or from scratch. Trigger on phrases like "brand guidelines", "brand book", "brand manual", "design manual", "style guide", "visual identity guide", "brand standards", "corporate identity manual", "create guidelines for [brand]", "document our brand system", "write the rules for our brand", or when the user uploads logo files, color palettes, type specs, or strategy decks and asks to formalize them. Also use for partner/quick-guide subset versions and for adding a missing section (e.g. "add a tone of voice section to our guidelines"). Do NOT use for: marketing campaign briefs, ad creative concepts, SEO style guides, technical writing style guides, or copywriting briefs.
+name: brand-guidelines-gen
+description: >-
+  Create comprehensive brand guidelines documents (also called brand books, brand manuals, design manuals, visual identity guides, corporate identity standards, or brand style guides). Use this skill whenever the user asks to build, write, draft, structure, or update brand guidelines. Trigger on phrases like "brand guidelines", "brand book", "brand manual", "design manual", "style guide", "visual identity guide", "brand standards", "corporate identity manual", "create guidelines for [brand]", "document our brand system", "write the rules for our brand", or when the user uploads logo files, color palettes, type specs, or strategy decks and asks to formalize them. Also use for partner/quick-guide subset versions and for adding a missing section (e.g. "add a tone of voice section to our guidelines"). Do NOT use for marketing campaign briefs, ad creative concepts, SEO style guides, technical writing style guides, or copywriting briefs.
 ---
 
 # Brand Guidelines
 
 Build a complete, production-ready brand guidelines document by working section-by-section through the canonical 8-section structure.
 
-The section order, the frequency figures and the anti-patterns cited throughout the references come from a structured review of roughly 180 brand guideline documents spanning 1967–2026. The findings are distilled here; the source documents are third-party and client-confidential and are deliberately not distributed with this skill.
-
 ## Core principle
 
-**Understand the brand before writing the document.** Generic brand guidelines are the single most common failure mode. Documents that open with strategic context are consistently rated far more useful than those that jump straight to logo rules. Phase 1 (context discovery) is mandatory and non-skippable.
+**Understand the brand before writing the document.** Brand guidelines must reflect the brand's actual strategy, identity, audiences, assets, and operating context. Phase 1 (context discovery) is mandatory and non-skippable.
 
 ## Workflow
 
@@ -40,14 +39,14 @@ Confirm with the user which tier fits, defaulting to **Standard** unless context
 | Tier | Pages | Template | Use case |
 |------|-------|----------|----------|
 | **Compact** | 20–30 | `templates/compact-template.md` | Startup, sub-brand, partner/quick guide, supplement |
-| **Standard** | 30–50 | `templates/standard-template.md` | Most projects (the median document is ~39pp) |
+| **Standard** | 30–50 | `templates/standard-template.md` | Most established single-brand projects |
 | **Comprehensive** | 60–90 | `templates/comprehensive-template.md` | Enterprise, multi-market, multi-product |
 
 Load the matching template as the scaffold for the document. Replace bracketed placeholders with discovered content; do not deliver the document with `[brackets]` still in place.
 
 ### Phase 3 — Draft sections in canonical order
 
-The eight canonical sections, in the order used by around 60% of documents reviewed, with near-total consensus at positions 1 and 8:
+Use this eight-section order so the document moves from strategic foundations through identity rules and real-world applications to verbal expression:
 
 | # | Section | Reference | Always? |
 |---|---------|-----------|---------|
@@ -62,19 +61,19 @@ The eight canonical sections, in the order used by around 60% of documents revie
 
 **Rules:**
 - Always include all 8 section slots, even if Photography or TOV are placeholder. Omitting them signals an incomplete system.
-- Never reorder Strategy → Logo → Typography → Color (85%+ consensus).
-- Tone of Voice always closes (100% consensus when present).
+- Keep Strategy → Logo → Typography → Color in that order.
+- Place Tone of Voice last so it closes the system with guidance for written expression.
 - For each section: load its reference, work through the structured prompts, produce specs, then write copy in the brand's voice.
 
 For modern extensions (motion, brand architecture, accessibility, design tokens, governance, AI policy), use `references/11-extended-elements.md`. Include for Comprehensive tier or when the brand has a digital product.
 
 ### Phase 4 — Style the document itself
 
-The guidelines document should usually speak IN the brand's voice rather than in neutral consultant-register — documents written in voice consistently rate higher for usefulness. Use `references/12-writing-the-guidelines.md` to calibrate. The default register is **hybrid**: narrative context + precise specification, alternating between "why" and "how."
+The guidelines document should usually speak in the brand's voice rather than in a neutral consultant register. Use `references/12-writing-the-guidelines.md` to calibrate. The default register is **hybrid**: narrative context + precise specification, alternating between "why" and "how."
 
 ### Phase 5 — Quality check
 
-Before delivering, validate against the Platinum Standard with `references/13-quality-checklist.md`. The check explicitly screens for the **Fatal Five** omissions:
+Before delivering, validate with `references/13-quality-checklist.md`. The check explicitly screens for five critical omissions:
 
 1. No brand strategy section
 2. No tone of voice
@@ -95,7 +94,7 @@ If the user wants a Figma-ready or InDesign-ready output, produce the Markdown c
 ## Key triggers and behaviors
 
 - **User shares a logo + asks for guidelines** → Phase 1 discovery first, do not start writing logo rules
-- **User shares an existing guidelines PDF and asks to extend** → Read the existing first, then identify gaps against the Fatal Five and Platinum Standard
+- **User shares an existing guidelines PDF and asks to extend** → Read the existing first, then identify gaps against the five critical omissions and the quality checklist
 - **User wants only one section** → Load that section's reference and produce just that section, but flag the broader gaps
 - **User says "make it look like [Brand X]"** → Do not reproduce Brand X's system. Ask what they admire about it — rigor? minimalism? authority? warmth? — and apply that quality to their own brand
 - **User asks for a tier different from the default** → Confirm and load the matching template

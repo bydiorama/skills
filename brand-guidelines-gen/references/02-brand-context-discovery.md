@@ -1,6 +1,6 @@
 # Phase 1: Brand Context Discovery
 
-The interview that must run BEFORE any document content is drafted. Generic guidelines are the #1 anti-pattern. This phase gathers the inputs that turn templated content into a document grounded in the brand's actual reality.
+Run this interview before drafting document content. This phase gathers the inputs needed to ground the guidelines in the brand's actual reality.
 
 ## Operating principle
 
@@ -31,10 +31,10 @@ For each item, ask: "Do you already have this defined? If yes, share it. If no, 
 - **Purpose** — why the brand exists (philosophical "why")
 - **Vision** — aspirational future state
 - **Mission** — what they do, today, to get there
-- **Values** — 3–5 named values (sweet spot, per the research)
+- **Values** — 3–5 named values
 - **Personality** — 4–6 adjectives, ideally with "X but not Y" anti-definitions
 - **Positioning statement / tagline** — distinctive promise vs competitors
-- **Archetype** — optional; only about 7% of documents reviewed use formal archetypes
+- **Archetype** — optional; use only when it is strategically defined and useful
 
 If the user has none of these defined: they need a brand strategy session before writing guidelines. Offer to either (a) defer the document, (b) draft a working strategy as a starting point and flag it as v0.1 for stakeholder review, or (c) build a visual-only document with strategy as a placeholder.
 
@@ -73,7 +73,7 @@ If the brand has NO existing assets: this is identity creation, not documentatio
 
 ### 6. Tone of the document itself
 
-The research shows documents written in the brand's own voice score 4.1/5 vs. 3.4 for neutral consultant-register. Ask:
+Choose whether the guidelines should express the brand's voice or use a neutral reference register. Ask:
 
 > Should the guidelines themselves sound like the brand — warm and chatty, opening with a greeting in the brand's own voice — or read as a neutral reference manual, in the engineering-grade register of a classic corporate identity standard?
 
@@ -141,5 +141,5 @@ DO NOT skip this confirmation step. It's the cheapest correction point in the en
 
 - **User says "just use what's in the brief" but the brief is a 2-line email.** Push for more specifics. A skeleton brief produces a generic document.
 - **User says "make it like Apple's"** but their brand has nothing in common with Apple. Use the comparison to extract WHAT they admire (rigor? minimalism? authority? clarity?) and apply that quality, not the visual style.
-- **User has no strategy and wants to skip Phase 1.** Offer the visual-only fallback (placeholder strategy section, v0.1 marker, stakeholder review note) but warn that the document will land at 3.0/5 ceiling rather than 4.0+.
+- **User has no strategy and wants to skip Phase 1.** Offer the visual-only fallback with a placeholder strategy section, v0.1 marker, and stakeholder review note; explain that the document will remain incomplete until strategy is defined.
 - **User shares 50 reference brands.** Ask them to pick the top 3 with reasons. Long inspiration lists are usually a sign of unclear direction.

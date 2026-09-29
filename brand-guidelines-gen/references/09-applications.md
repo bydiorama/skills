@@ -1,8 +1,6 @@
 # Section 7 — Applications
 
-Position 7 (78% consensus). Present in 94.4% of documents reviewed.
-
-Applications is the synthesis section: where logo, color, typography, graphics, and photography come together in real-world contexts. Top-scoring documents include 15+ application types using REAL content, not lorem ipsum.
+Place Applications after the visual-system sections. Use it to show how logo, color, typography, graphics, and photography work together in real contexts.
 
 ## Required subsections
 
@@ -25,26 +23,24 @@ Applications is the synthesis section: where logo, color, typography, graphics, 
 | Standard | 8–12 | Above + letterhead, report cover, brochure, signage, swag |
 | Comprehensive | 15+ | Full-suite stationery + multi-channel digital + signage + packaging + vehicle + uniform |
 
-The strongest documents cover 15+ application types. Applications are what prove the system actually works.
+Applications prove that the system works. Choose examples that match the brand's actual channels and expected production needs.
 
-## Most-common applications by frequency
+## Common application types
 
-| Rank | Application | % of docs |
-|-----:|-------------|----------:|
-| 1 | Business cards | 56% |
-| 2 | Social media posts | 46% |
-| 3 | Letterhead | 42% |
-| 4 | Presentation templates | 40% |
-| 5 | Email signature | 38% |
-| 6 | Website hero / landing | 36% |
-| 7 | Brochure / report | 30% |
-| 8 | Signage / environmental | 28% |
-| 9 | Merchandise / swag | 22% |
-| 10 | Packaging | 18% |
+- Business cards
+- Social media posts
+- Letterhead
+- Presentation templates
+- Email signatures
+- Website heroes and landing pages
+- Brochures and reports
+- Signage and environmental graphics
+- Merchandise
+- Packaging
 
 ## Use REAL content, not lorem ipsum
 
-This is the single biggest quality lever in the section. Top-scoring documents use:
+Use brand-specific content such as:
 
 - A resort brand — actual menu prices, real staff names, specific vehicle models
 - A fitness platform — real athlete profiles and real activity data, never lorem
@@ -98,7 +94,7 @@ Templates:     /Brand/Templates/Social/IG-post.psd, .fig
 
 ## Templates as deliverables
 
-The most valuable thing the Applications section can do is point to actual templates. Top-tier documents ship templates as part of the asset bundle:
+Point to actual templates whenever possible and include them in the asset bundle:
 
 - **InDesign** for stationery and editorial
 - **Figma libraries** for digital and presentation

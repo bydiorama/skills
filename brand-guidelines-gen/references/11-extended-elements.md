@@ -1,20 +1,18 @@
-# Extended Elements (Modern Best Practice)
+# Extended Elements
 
-Beyond the canonical 8 sections, modern brand guidelines increasingly include extended sections that the research identifies as **systemic gaps** — areas where adoption is below 10% but where adoption confers a meaningful competitive edge.
+Use extended sections to address operational, digital, compliance, and governance needs beyond the canonical eight sections.
 
 Include these for **Comprehensive tier** projects, or for any brand with a digital product, or when targeting enterprise-scale stakeholders.
 
-## The five industry gaps
+## Core extended areas
 
-| Gap | Coverage observed | Opportunity |
-|-----|----------------:|-------------|
-| Accessibility | ~8% | Largest compliance risk in the industry; mandatory in some jurisdictions |
-| Dark mode / responsive | ~10% | Universal device diversity; almost no documents address |
-| AI usage policy | ~1% | Almost nobody addresses it substantively; a few document generative-image prompts |
-| Sustainability | ~3% | Almost absent today; ESG reporting will make it mandatory |
-| Design tokens / dev handoff | ~5% | Rare, and the clearest efficiency opportunity |
-
-A toolkit-generated document that includes ALL FIVE places ahead of 92%+ of the existing market.
+| Area | Why it matters |
+|------|----------------|
+| Accessibility | Supports inclusive use and may be legally required |
+| Dark mode / responsive | Keeps the system coherent across devices and display modes |
+| AI usage policy | Defines safe, transparent, and on-brand use of AI tools |
+| Sustainability | Connects production choices to environmental commitments |
+| Design tokens / dev handoff | Translates brand decisions into implementation-ready values |
 
 ## 1. Accessibility
 
@@ -39,7 +37,7 @@ WCAG 2.2 (current as of 2024) is the global de facto standard. Reference the 2.1
 - axe DevTools
 - WebAIM Contrast Checker
 
-### What the strongest documents do
+### Recommended practices
 
 - Thread accessibility through every section rather than isolating it
 - Ship a pairing matrix for large palettes, marking which combinations pass
@@ -48,7 +46,7 @@ WCAG 2.2 (current as of 2024) is the global de facto standard. Reference the 2.1
 
 ## 2. Dark mode
 
-Almost no reviewed document covers this. For any brand with a digital product, dark mode is now table-stakes.
+Include dark-mode rules for any brand with a digital product that supports or expects dark interfaces.
 
 ### Required content
 
@@ -75,7 +73,7 @@ brand.primary            #2F73DB           #5B9CFF      (often lifted in dark)
 
 ## 3. AI usage policy
 
-Almost nobody addresses this with substance. Pattern the section after a "qualification process for AI claims" and extend.
+Define a substantive policy with clear qualification, review, disclosure, and accountability requirements.
 
 ### Required content
 
@@ -108,7 +106,7 @@ Barely any guidelines address sustainability with substance. Mandatory direction
 
 ## 5. Design tokens and developer handoff
 
-The bridge from "brand guidelines PDF" to "design tokens JSON" is the largest efficiency opportunity in the industry.
+Connect the brand guidelines to design tokens so approved values can flow directly into implementation.
 
 ### Required content
 
@@ -135,7 +133,7 @@ The bridge from "brand guidelines PDF" to "design tokens JSON" is the largest ef
 - **Naming convention** — scale.tier.purpose.state (e.g. `color.brand.primary.hover`)
 - **Token doc** — auto-generated from the tokens file
 
-### What the strongest documents do
+### Recommended practices
 
 - `Family.Weight` typographic naming that maps straight onto tokens
 - Cubic-bezier animation curves published as named tokens
@@ -143,7 +141,7 @@ The bridge from "brand guidelines PDF" to "design tokens JSON" is the largest ef
 
 ## 6. Motion and animation
 
-Only about 10% of documents reviewed cover motion. Increasingly important for digital brands.
+Include motion guidance when animation is part of the brand's product or communications experience.
 
 ### Required content
 
@@ -159,7 +157,7 @@ Only about 10% of documents reviewed cover motion. Increasingly important for di
 - **Loop behavior** — for ambient animations
 - **Reduced-motion compliance** — `prefers-reduced-motion` mapped to alternative
 
-### What the strongest documents do
+### Recommended practices
 
 - Frame-rate specifications (24+ fps) alongside the motion style
 - Cubic-bezier easing values, not adjectives like "smooth"
@@ -179,7 +177,7 @@ For multi-brand / multi-product / acquired-brand portfolios.
 - **Acquired-brand transition** — how to phase from acquired identity to parent
 - **Naming conventions** — "[Parent] [Sub-brand]" vs "[Sub-brand] by [Parent]" vs "[Sub-brand]" alone
 
-### What the strongest documents do
+### Recommended practices
 
 - A multi-entity system, version-controlled, with a rule per entity type
 - A transition-branding protocol covering what happens during and after an acquisition
@@ -200,7 +198,7 @@ Who owns the brand, who approves uses, how disputes resolve.
 - **Version + changelog** — current version, last-major-update date
 - **Contact** — single point of contact for brand questions
 
-### What the strongest documents do
+### Recommended practices
 
 - A "who to talk to" governance section, plus a named internal asset resource
 - A published version history spanning several years
@@ -221,4 +219,4 @@ Who owns the brand, who approves uses, how disputes resolve.
 
 For **Compact** tier, skip all extended sections except a brief governance footer.
 For **Standard** tier, include accessibility + governance at minimum; design tokens if digital.
-For **Comprehensive** tier, include all relevant gaps. This positions the document above 90%+ of the market.
+For **Comprehensive** tier, include every extended area relevant to the brand's products, markets, and operations.
